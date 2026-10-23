@@ -21,6 +21,18 @@ function ownRuntimeSources(directory){
  });
 }
 
+test('MisaOffice package branding is consistent and retains upstream attribution and install identity',()=>{
+ const root=path.resolve(__dirname,'../..'),desktop=path.join(root,'desktop');
+ const pkg=require(path.join(desktop,'package.json')),lock=JSON.parse(fs.readFileSync(path.join(desktop,'package-lock.json'),'utf8'));
+ assert.equal(pkg.name,'misaoffice-desktop');assert.equal(lock.name,pkg.name);assert.equal(lock.packages[''].name,pkg.name);
+ assert.equal(pkg.build.productName,'MisaOffice');assert.equal(pkg.build.linux.executableName,'misaoffice');
+ assert.equal(pkg.build.appId,'org.elixiroffice.desktop');
+ const config=JSON.parse(fs.readFileSync(path.join(root,'branding/web-apps/theme/elixiroffice/meta/config.json'),'utf8'));
+ assert.equal(config.app_title,'MisaOffice');assert.match(config.attribution,/ElixirOffice.*Euro-Office.*ONLYOFFICE/);
+ const manifest=JSON.parse(fs.readFileSync(path.join(root,'branding/example/nodejs/public/elixir/brand/manifest.webmanifest'),'utf8'));
+ assert.equal(manifest.name,'MisaOffice');assert.equal(manifest.short_name,'MisaOffice');
+});
+
 // Run the existing real-main bootstrap with failing network/updater boundaries.
 // No Electron window or renderer process is started by this unit check.
 async function guardedBoot(document=false,injected=''){
