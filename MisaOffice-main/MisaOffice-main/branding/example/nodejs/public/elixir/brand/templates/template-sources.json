@@ -1,0 +1,3126 @@
+{
+  "license": "CC0-1.0",
+  "description": "Generated fictional multilingual examples; no real person or organisation. Layouts derive from the public provisional corpus t01,t02,s06,s08.",
+  "files": [
+    {
+      "file": "en/worksheet-fractions.docx",
+      "language": "en",
+      "languageTag": "en-US",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34905,
+      "sha256": "890eb22177425ef328b5f236208e324dc32a2f58e8828ab729ba0577495bf289",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "en/worksheet-fractions.png",
+      "language": "en",
+      "languageTag": "en-US",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16204,
+      "sha256": "c33455f1c7fc42d33f82163112f13c10612239513414c93ec8779bdce5414bde",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "fr/worksheet-fractions.docx",
+      "language": "fr",
+      "languageTag": "fr-FR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34886,
+      "sha256": "e015b598d91c995a3d470133f4436bacf2de6d534fb75f652b2f280c7d8dc984",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "fr/worksheet-fractions.png",
+      "language": "fr",
+      "languageTag": "fr-FR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 15058,
+      "sha256": "d06e9b3754f0d46ed223f34656ac081e678d1ce702ee0064db58d6abe32ac2ab",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "de/worksheet-fractions.docx",
+      "language": "de",
+      "languageTag": "de-DE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34954,
+      "sha256": "6f3dfdb020ecbc72d635483059e063d7d054060d6c81e57f54da1cb3bf6d11bd",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "de/worksheet-fractions.png",
+      "language": "de",
+      "languageTag": "de-DE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16241,
+      "sha256": "a8d690fe3d26c2cd51e4e17105aeb9255533d10a753381516caab56695634f32",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "es/worksheet-fractions.docx",
+      "language": "es",
+      "languageTag": "es-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34947,
+      "sha256": "b5d3037c42034f13b0ce82958436826c6fe6360f620166c05226cce77d938d85",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "es/worksheet-fractions.png",
+      "language": "es",
+      "languageTag": "es-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 17235,
+      "sha256": "8f8ed2640f17220353d8ae4325ec6728f6afe550f107fe558673c4e898741433",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "it/worksheet-fractions.docx",
+      "language": "it",
+      "languageTag": "it-IT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34933,
+      "sha256": "3a125210b295d7a18bd56c40084963da5f806ecfb48403110c58b37dd86af715",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "it/worksheet-fractions.png",
+      "language": "it",
+      "languageTag": "it-IT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16371,
+      "sha256": "e2591620c7289bfd54e16e0e5da43c0d5cb296052859d1375fe211b3c5d8c4a6",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "pt/worksheet-fractions.docx",
+      "language": "pt",
+      "languageTag": "pt-BR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34966,
+      "sha256": "0e1ea149ae28785afb5a44eb8304a3ec948c213465b9045b6f43010e6389bd9e",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "pt/worksheet-fractions.png",
+      "language": "pt",
+      "languageTag": "pt-BR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16746,
+      "sha256": "7f3fe068874847e88fa6e0b6bb77403a95a85218d0dabf228509f772e4da8296",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "pt-pt/worksheet-fractions.docx",
+      "language": "pt-pt",
+      "languageTag": "pt-PT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34965,
+      "sha256": "5aff9efa921affca786ae74ab14e0878031547e848bf10ce9e3a5aab077d21e8",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "pt-pt/worksheet-fractions.png",
+      "language": "pt-pt",
+      "languageTag": "pt-PT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16754,
+      "sha256": "d4a83a537fec7d04d688f27684659017bd71e213682765b145e5555d60a786ab",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "nl/worksheet-fractions.docx",
+      "language": "nl",
+      "languageTag": "nl-NL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34922,
+      "sha256": "1011438bb3869cd81941a58287e594edecebb5f91a8d4b035cfa56056d2fd825",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "nl/worksheet-fractions.png",
+      "language": "nl",
+      "languageTag": "nl-NL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16091,
+      "sha256": "f11c7fa299a3565a7b20052650ded02d3dace58d5174ad6ed3cdb4fae9025bf5",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "pl/worksheet-fractions.docx",
+      "language": "pl",
+      "languageTag": "pl-PL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34996,
+      "sha256": "428d800ac1eff68a6bd38a46a019b1a224b5e8a9983c5e342da1e9421257be9f",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "pl/worksheet-fractions.png",
+      "language": "pl",
+      "languageTag": "pl-PL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16807,
+      "sha256": "cade613ff6295048c25986504bacf2f4d5e0415889f353b89508b27ab6e52d28",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "ru/worksheet-fractions.docx",
+      "language": "ru",
+      "languageTag": "ru-RU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 35210,
+      "sha256": "07abe0280db1406b66e33e7af5e68cd5f2684890b9a43e50dadf8ce0bd64f4cc",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "ru/worksheet-fractions.png",
+      "language": "ru",
+      "languageTag": "ru-RU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16735,
+      "sha256": "f965ac843d709abe03aeee64395349a1a47ad0a786f3baa1bfb51aca295550f2",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "ar/worksheet-fractions.docx",
+      "language": "ar",
+      "languageTag": "ar-SA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 35500,
+      "sha256": "6524158d95ea155df91aa298cae7503c3ee0c497ffbf5cd44ca8334e1f10f43e",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "ar/worksheet-fractions.png",
+      "language": "ar",
+      "languageTag": "ar-SA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 14646,
+      "sha256": "e95ba62778dc3b8f77f775218166885a5dd024a76edf1340c7c60355f5d8c39c",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "az/worksheet-fractions.docx",
+      "language": "az",
+      "languageTag": "az-Latn-AZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 35017,
+      "sha256": "13bf7a53f8d9bc26ee67dc914cd7bfbcc9675306eb482a277875932d9a544545",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "az/worksheet-fractions.png",
+      "language": "az",
+      "languageTag": "az-Latn-AZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 15587,
+      "sha256": "9dfd80f7dc20d479140521b46e9e6722945375c75868f651ae0dc96d7a3263ce",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "be/worksheet-fractions.docx",
+      "language": "be",
+      "languageTag": "be-BY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 35219,
+      "sha256": "ff2625c28c9e8d7eedeaed8e603eb36bc0e477f71a08312e36266bee5ecebb62",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "be/worksheet-fractions.png",
+      "language": "be",
+      "languageTag": "be-BY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16899,
+      "sha256": "6ecf3ca57c0c611b5d46fb667a192a84c2698da5eeda76bd67a8b64cb20820ae",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "bg/worksheet-fractions.docx",
+      "language": "bg",
+      "languageTag": "bg-BG",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 35215,
+      "sha256": "0d3f8754af3e3062bd57ce23c06808245c0a350d438427de65c2467fa7fbc666",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "bg/worksheet-fractions.png",
+      "language": "bg",
+      "languageTag": "bg-BG",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16663,
+      "sha256": "100ff0bf9debea9ae5651c3cf136807182c1ce8a030eee8f9b38cbd9c14797f6",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "ca/worksheet-fractions.docx",
+      "language": "ca",
+      "languageTag": "ca-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34948,
+      "sha256": "54649636836fcb8ec340b0840cabc2ba13d9b2e6b0fafc724af619d83b4d969b",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "ca/worksheet-fractions.png",
+      "language": "ca",
+      "languageTag": "ca-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16432,
+      "sha256": "1700f0ccc3a599193f46cf57b8e0c46437a691d43aa0ed18a882b41239c8ad3f",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "cs/worksheet-fractions.docx",
+      "language": "cs",
+      "languageTag": "cs-CZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 35002,
+      "sha256": "1e49b4bcdbabf8c2d10566197bc6079b12c251390df9ae98cab232d18cf34d7a",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "cs/worksheet-fractions.png",
+      "language": "cs",
+      "languageTag": "cs-CZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16586,
+      "sha256": "5a1caccb821c82b5563d9693815b15ddaef5679d1da4ae734a1fffaca2778cce",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "da/worksheet-fractions.docx",
+      "language": "da",
+      "languageTag": "da-DK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34935,
+      "sha256": "5cb13212cd1ef111f8cc35a83458dee538a509f44fe1c5ed0676a78c40d18e30",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "da/worksheet-fractions.png",
+      "language": "da",
+      "languageTag": "da-DK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 15616,
+      "sha256": "8613c86f5a12b663383e5e0b22f53c12ec927054ec5cd5668bd4b051fcb2e073",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "el/worksheet-fractions.docx",
+      "language": "el",
+      "languageTag": "el-GR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 35304,
+      "sha256": "2a832b3b3dfac08ba9e601f5484347dcdc733c3600434913d095f732d162ffbf",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "el/worksheet-fractions.png",
+      "language": "el",
+      "languageTag": "el-GR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18133,
+      "sha256": "6bd8ee33a2647de1bf11ec7b143deaf6562fc9d1ec7aa9d6e0e0be89eb07e407",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "eu/worksheet-fractions.docx",
+      "language": "eu",
+      "languageTag": "eu-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34942,
+      "sha256": "652e338a435725bb2f92c11bedb9dca764e86ef82b11fdb2f9cc170a31c90191",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "eu/worksheet-fractions.png",
+      "language": "eu",
+      "languageTag": "eu-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16895,
+      "sha256": "de17ee5c2c467454d6ebb36b6073923aed8fbee59d4642588d5dbab1d95f2e2f",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "fi/worksheet-fractions.docx",
+      "language": "fi",
+      "languageTag": "fi-FI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34974,
+      "sha256": "795ca0184d0b08f3672a732b61af97677d2e00342a09fe889dd347fc5846dc05",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "fi/worksheet-fractions.png",
+      "language": "fi",
+      "languageTag": "fi-FI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 17014,
+      "sha256": "861796e8ed4c22ce7027e7f04e19b6efa72ab70719d55685561c705e0da96b9d",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "gl/worksheet-fractions.docx",
+      "language": "gl",
+      "languageTag": "gl-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34937,
+      "sha256": "8e3407f97c97accb95a09ff6f30a541d685a6a1894eae78955f23f0356ae7c97",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "gl/worksheet-fractions.png",
+      "language": "gl",
+      "languageTag": "gl-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16475,
+      "sha256": "aca06e1a586104be0dba498db6b400404587bf904d7d1dd45fb39d5fc81b73fc",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "he/worksheet-fractions.docx",
+      "language": "he",
+      "languageTag": "he-IL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 35441,
+      "sha256": "e99b741c4a5fa07b969b789a8b7495df6344d13f2e06fd6bd9b751ec1b9fe385",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "he/worksheet-fractions.png",
+      "language": "he",
+      "languageTag": "he-IL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 13527,
+      "sha256": "b20f715b27262034ea7500e35ef62d8b9a4ad6c505c6dd4472ee54950a167cf3",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "hu/worksheet-fractions.docx",
+      "language": "hu",
+      "languageTag": "hu-HU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 35002,
+      "sha256": "9c1ffdcba8937312dc8fa381c58f85b2faa78ab209b169944c11fbcf80a1588a",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "hu/worksheet-fractions.png",
+      "language": "hu",
+      "languageTag": "hu-HU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16890,
+      "sha256": "b2c0b508d2099c9bf580acd254b4ee3b93eaf4c191b1a229d0cb3086a03a94f0",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "hy/worksheet-fractions.docx",
+      "language": "hy",
+      "languageTag": "hy-AM",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 35180,
+      "sha256": "8ce5d214c9a1aae997cd4ee03da58196f7f47685c6fddf4424cd4e119eca68c6",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "hy/worksheet-fractions.png",
+      "language": "hy",
+      "languageTag": "hy-AM",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18295,
+      "sha256": "7d7287613b3594a8d579f2fb32430f00fff63e8eb60a11f781ef37f054bbef54",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "id/worksheet-fractions.docx",
+      "language": "id",
+      "languageTag": "id-ID",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34919,
+      "sha256": "abd1d7e33c234f5d9114817fb4b58ef2b80388ac9c200656e5f8e3a1c927c82d",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "id/worksheet-fractions.png",
+      "language": "id",
+      "languageTag": "id-ID",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16219,
+      "sha256": "3da275dab6d261f17705693c9263c08fcd0694009be086cf94b306b13162ced5",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "lo/worksheet-fractions.docx",
+      "language": "lo",
+      "languageTag": "lo-LA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 35188,
+      "sha256": "8932f40217f9ff6877a38bb71130b52f3872d1b185bb62b0a36f3679659d98f1",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "lo/worksheet-fractions.png",
+      "language": "lo",
+      "languageTag": "lo-LA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16672,
+      "sha256": "fac49a4e406191b22282c3a5554c791e4e780f138a3d1f35e99a6afc1247ece5",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "lv/worksheet-fractions.docx",
+      "language": "lv",
+      "languageTag": "lv-LV",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34988,
+      "sha256": "54c11be9a04c61fd930e94ecfed503ba3f9364e5abb31f300dc47749aeb5e83e",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "lv/worksheet-fractions.png",
+      "language": "lv",
+      "languageTag": "lv-LV",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 17063,
+      "sha256": "0e5a36d229eb626ecf1120138c4a6ae6aae2d4443c04996b59725741036f7819",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "ms/worksheet-fractions.docx",
+      "language": "ms",
+      "languageTag": "ms-MY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34912,
+      "sha256": "e533a0b433fb5476be09ecf8ff504cba1d44f667e60ace47302cac96c7cc0833",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "ms/worksheet-fractions.png",
+      "language": "ms",
+      "languageTag": "ms-MY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16425,
+      "sha256": "b1c038a4022789a6c18594fff9eb6658a6905d4227975a4c4b5a423ccd68ffa3",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "no/worksheet-fractions.docx",
+      "language": "no",
+      "languageTag": "nb-NO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34907,
+      "sha256": "7cd40b27ece9025822f46f552e825390c2b7d2bc489bc60c32a9ceec04ac2dd4",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "no/worksheet-fractions.png",
+      "language": "no",
+      "languageTag": "nb-NO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 15369,
+      "sha256": "ed188955acd43b5a64585e94aa334234ad3d90691f2239f9226b273808ba3f32",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "ro/worksheet-fractions.docx",
+      "language": "ro",
+      "languageTag": "ro-RO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34977,
+      "sha256": "24b61d888c1206745d67f41db38dce04d1d37de49cc8569fc6ba20f000e6ffaa",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "ro/worksheet-fractions.png",
+      "language": "ro",
+      "languageTag": "ro-RO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16200,
+      "sha256": "fee5bc61394b4700e7e5327e3f2ce908c825069b994f9ba83051ca27e08f164e",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "sk/worksheet-fractions.docx",
+      "language": "sk",
+      "languageTag": "sk-SK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 35000,
+      "sha256": "7facd850683f2c0ad8b5b6916d31f380e7d941a77b5770c53f9582ec0e56527d",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "sk/worksheet-fractions.png",
+      "language": "sk",
+      "languageTag": "sk-SK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16798,
+      "sha256": "51de1fd0510c2b0cf8dd8640ceb5baddbea5e448f23ef39701227fb3346757e6",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "sl/worksheet-fractions.docx",
+      "language": "sl",
+      "languageTag": "sl-SI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34939,
+      "sha256": "b3b388ca338f86f31fb6d4a335c18aafd873613ffc0fcc6844f66620be9c3a29",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "sl/worksheet-fractions.png",
+      "language": "sl",
+      "languageTag": "sl-SI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 15798,
+      "sha256": "a997c952745f11ab5a79c4808ef9cf4df662cb5c846adbcf153ec86e535ce9a7",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "sq/worksheet-fractions.docx",
+      "language": "sq",
+      "languageTag": "sq-AL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34956,
+      "sha256": "2aa6cec4103f12efaeb0bffbb69ab139adbd7bcecb60d3c5130267a52c2cfa66",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "sq/worksheet-fractions.png",
+      "language": "sq",
+      "languageTag": "sq-AL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16861,
+      "sha256": "89753587bffae9955b44e4892dbc8913458509d082b80936cae2acb4d051595d",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "sr/worksheet-fractions.docx",
+      "language": "sr",
+      "languageTag": "sr-Latn-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34948,
+      "sha256": "c901339a7eb602c1e892f2a158926b221ac7bf2f5ec81c5ec48a5e36d27babad",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "sr/worksheet-fractions.png",
+      "language": "sr",
+      "languageTag": "sr-Latn-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16046,
+      "sha256": "82da0fb8a1c5c0d29d6a04e55a0571edcd4cf6c59779ecdd4064268ab321b0ea",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "sr-cyrl/worksheet-fractions.docx",
+      "language": "sr-cyrl",
+      "languageTag": "sr-Cyrl-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 35191,
+      "sha256": "612e83f867c0dc3361a3e8f32a2dccf34792de0ae0e8c1bbc09b2fc318a2a1a1",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "sr-cyrl/worksheet-fractions.png",
+      "language": "sr-cyrl",
+      "languageTag": "sr-Cyrl-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16725,
+      "sha256": "3eae1d31bb304576f9f438a11fb552074aedac80480ebc7e20a1fae84d8d6d18",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "sv/worksheet-fractions.docx",
+      "language": "sv",
+      "languageTag": "sv-SE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34941,
+      "sha256": "6120e3f703ca56dba3e07496a68381e0e23806da97c537b461cd147f657293e3",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "sv/worksheet-fractions.png",
+      "language": "sv",
+      "languageTag": "sv-SE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 15426,
+      "sha256": "bc0a0baf1b4f451d5614d8e639275d130a5037f1c75c3cde172b4023f02c3ee8",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "tr/worksheet-fractions.docx",
+      "language": "tr",
+      "languageTag": "tr-TR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 34964,
+      "sha256": "f84af0e0dd27b7fd007e2bacb0327fc5df41bb91d92943ba384104870178927a",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "tr/worksheet-fractions.png",
+      "language": "tr",
+      "languageTag": "tr-TR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 15176,
+      "sha256": "0c2d4b8245214a017809c7850ee8edc588c20712d9a878cf2e34473ece12400d",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "uk/worksheet-fractions.docx",
+      "language": "uk",
+      "languageTag": "uk-UA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 35224,
+      "sha256": "400cb502fd537c011e4356a6433dcce48230ced280ab8edf5194e6cc8c8709bc",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "uk/worksheet-fractions.png",
+      "language": "uk",
+      "languageTag": "uk-UA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16457,
+      "sha256": "db3d5d9e6b294511477fb5103f0aeaf6f37cf4ae5b7c361868c67fd766ef34c5",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "vi/worksheet-fractions.docx",
+      "language": "vi",
+      "languageTag": "vi-VN",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 35059,
+      "sha256": "3b594df7f017032d796e9ee51bae9f818889bf89ef5bcba27667f6b41f71ce66",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "vi/worksheet-fractions.png",
+      "language": "vi",
+      "languageTag": "vi-VN",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16230,
+      "sha256": "e2a4e04ddc6be64f624ce0cc882fec71ecae3d2816369b35afa665e670c4e8cf",
+      "layoutSource": "tools/example/template-layouts/worksheet-fractions.docx"
+    },
+    {
+      "file": "en/assessment-grid.docx",
+      "language": "en",
+      "languageTag": "en-US",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21452,
+      "sha256": "d8a25a9c3469a673218c0a50784af9d5bd3662305cb99f6b782f015da3f4433a",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "en/assessment-grid.png",
+      "language": "en",
+      "languageTag": "en-US",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23281,
+      "sha256": "13e21c0d5f3df7768a3654cd157212c7382af846e0c91071bc9fbb4f1dc2b2ad",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "fr/assessment-grid.docx",
+      "language": "fr",
+      "languageTag": "fr-FR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21471,
+      "sha256": "aa29befdf6cc0070700d56f5c1b50c44ab08a1dc5650f620d84143dd794f024f",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "fr/assessment-grid.png",
+      "language": "fr",
+      "languageTag": "fr-FR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 22925,
+      "sha256": "6a03834e39842c75d1c622a2e8b060cc6e6f93fe70e68575171af0a00d3634d2",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "de/assessment-grid.docx",
+      "language": "de",
+      "languageTag": "de-DE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21594,
+      "sha256": "2c719468bf87ebe0d8bc4508ef50d5585399f8513b91fb56c90f29c01ae9fd76",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "de/assessment-grid.png",
+      "language": "de",
+      "languageTag": "de-DE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 26660,
+      "sha256": "cc8f7d9297057318d224e4b1a0aa61cf86eb4271567fc39d38ec8219a0d9cb9c",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "es/assessment-grid.docx",
+      "language": "es",
+      "languageTag": "es-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21579,
+      "sha256": "e71e6b5f11edbdfea14b77be141feb5aee6ba08b0a23cba8e17a0943fd4b8dc3",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "es/assessment-grid.png",
+      "language": "es",
+      "languageTag": "es-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 25732,
+      "sha256": "76a53e653883487e5ebbeed066944ddba71a18d67e5eec91b623fd6615a375d4",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "it/assessment-grid.docx",
+      "language": "it",
+      "languageTag": "it-IT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21562,
+      "sha256": "65ffdb4c59f040b10067387a7df6b982b3f60c0a01cb43a654548652d9ead66b",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "it/assessment-grid.png",
+      "language": "it",
+      "languageTag": "it-IT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 25405,
+      "sha256": "de5abab2afa6e53eb48b259fe35ea836e41f298c4db071218dcb3ccfba2db9ac",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "pt/assessment-grid.docx",
+      "language": "pt",
+      "languageTag": "pt-BR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21596,
+      "sha256": "796d482bbc9389c7daa04b302010cbb6b5e30225da3721a0302c499b4130b802",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "pt/assessment-grid.png",
+      "language": "pt",
+      "languageTag": "pt-BR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 25842,
+      "sha256": "70ec4b222a867e4cba1546bf8a3926dae16a2d34b5bbd9c72243441420a3d48d",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "pt-pt/assessment-grid.docx",
+      "language": "pt-pt",
+      "languageTag": "pt-PT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21602,
+      "sha256": "79d4228156d1fe6cb7457aa12d3a775a95e7f310476b227b5e0450f9088db740",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "pt-pt/assessment-grid.png",
+      "language": "pt-pt",
+      "languageTag": "pt-PT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 25564,
+      "sha256": "231dccb40fa3a7a3e189e3900f250038a28e7b218b7340cf9a00901b894989d7",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "nl/assessment-grid.docx",
+      "language": "nl",
+      "languageTag": "nl-NL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21545,
+      "sha256": "8052bb90918e876ed47aa62d248c998eac3bdd1a12a4cfb9229fb5794ee55df5",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "nl/assessment-grid.png",
+      "language": "nl",
+      "languageTag": "nl-NL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24705,
+      "sha256": "19247fda2dd902ec884582c5f187ca36cd39299b9d88652a6eb6c228d4b325e4",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "pl/assessment-grid.docx",
+      "language": "pl",
+      "languageTag": "pl-PL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21622,
+      "sha256": "7bb0e478b1c11b48dc3e90220ac4489b72d3f84eb9f54cd34d5d1ecbfee50f7d",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "pl/assessment-grid.png",
+      "language": "pl",
+      "languageTag": "pl-PL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 25395,
+      "sha256": "75f3b6d3931b2d37cc7416d3d14947f2413e5340e45331849a62d1add01a3d23",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "ru/assessment-grid.docx",
+      "language": "ru",
+      "languageTag": "ru-RU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21927,
+      "sha256": "4da3f619b0a0f8cc4694db47a9983e17cf6f739786f0236681301f47b9302567",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "ru/assessment-grid.png",
+      "language": "ru",
+      "languageTag": "ru-RU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 25788,
+      "sha256": "c1361c86b9de0e6ad24fa31e66001f3314f953017726fc7e6580ed687db3920a",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "ar/assessment-grid.docx",
+      "language": "ar",
+      "languageTag": "ar-SA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21891,
+      "sha256": "f590308dee0d76be9935f5ebebcd774ddf72e3f8497b73f70a3ac71ccf636600",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "ar/assessment-grid.png",
+      "language": "ar",
+      "languageTag": "ar-SA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19252,
+      "sha256": "a0358a0434be7c095971ace203311c733d192cadd9f4632f993b6e9f41d78748",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "az/assessment-grid.docx",
+      "language": "az",
+      "languageTag": "az-Latn-AZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21655,
+      "sha256": "abe701a2e16943f20b63df64b5bb43412ae1d71baf4051ad343e1273b8a73870",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "az/assessment-grid.png",
+      "language": "az",
+      "languageTag": "az-Latn-AZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23530,
+      "sha256": "e86fd2a1f7fe949bde457ea1de9a5767312dbd18c8ff0f7981dc21691087841b",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "be/assessment-grid.docx",
+      "language": "be",
+      "languageTag": "be-BY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21933,
+      "sha256": "5c4bb65547929152b45f0b771942c8813a59114b1a31097b32a36c58e583e922",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "be/assessment-grid.png",
+      "language": "be",
+      "languageTag": "be-BY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 25445,
+      "sha256": "1250e039c9c7267ec259260f94e64191b8c158b04cd7128d7235e60c214a3394",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "bg/assessment-grid.docx",
+      "language": "bg",
+      "languageTag": "bg-BG",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21930,
+      "sha256": "238814c8027ad39956820edc20a12afc1d31e2671256de7b3e8c6be31e8850e2",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "bg/assessment-grid.png",
+      "language": "bg",
+      "languageTag": "bg-BG",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 25383,
+      "sha256": "3edfc95a409e4d3e9f29564a23169a3bf17001934a3dac764181d198ed8a8af8",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "ca/assessment-grid.docx",
+      "language": "ca",
+      "languageTag": "ca-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21567,
+      "sha256": "a58ca4db50c9a3f0a67b8243444960aef52a6097c5bab6b805b70ad57d5453df",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "ca/assessment-grid.png",
+      "language": "ca",
+      "languageTag": "ca-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24566,
+      "sha256": "3a0eabfd2d566c0a896286cbf7b4193edeb689a0828dc2fe66b2ac7ddd969479",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "cs/assessment-grid.docx",
+      "language": "cs",
+      "languageTag": "cs-CZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21608,
+      "sha256": "6733e12e3e6c9db7dda51ca01955e19def99a359dfa24dcc921c51580138e909",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "cs/assessment-grid.png",
+      "language": "cs",
+      "languageTag": "cs-CZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24331,
+      "sha256": "e2ef6ee26eb62183f3879338defb0033b1a58d0025996575942648881cecd030",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "da/assessment-grid.docx",
+      "language": "da",
+      "languageTag": "da-DK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21548,
+      "sha256": "d618c1a0fac80c4b1d14a452d10cba7abcfa7c102acf2164a033edb9eebfa147",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "da/assessment-grid.png",
+      "language": "da",
+      "languageTag": "da-DK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24260,
+      "sha256": "1967809e97be78cea045f7ed5d3e938dbb3fc90f5467a4165d19d5e32386db2a",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "el/assessment-grid.docx",
+      "language": "el",
+      "languageTag": "el-GR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 22044,
+      "sha256": "ff61f72c2dbea6d43498ec53e491fd40c9adaf8501862f21d51f6d7e60405606",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "el/assessment-grid.png",
+      "language": "el",
+      "languageTag": "el-GR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 28444,
+      "sha256": "59464545b516d9f4c8d0df9b11330cc96aa52dd4ad9fb50ec2bf0a4e96d2f709",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "eu/assessment-grid.docx",
+      "language": "eu",
+      "languageTag": "eu-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21550,
+      "sha256": "0a6a03f8f8f32fc17a7f7f7c8052cdc6d65de4d75927fc133a38df7bb075a8d2",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "eu/assessment-grid.png",
+      "language": "eu",
+      "languageTag": "eu-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 25113,
+      "sha256": "99de0d43c65037a7b5132914606edea53d365e04dda52239e3ec2665400cf190",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "fi/assessment-grid.docx",
+      "language": "fi",
+      "languageTag": "fi-FI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21542,
+      "sha256": "8127d842624f2c7a04da0ea5f946a3cc181de97e415c397d87ee258957a71914",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "fi/assessment-grid.png",
+      "language": "fi",
+      "languageTag": "fi-FI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23799,
+      "sha256": "d637b5b55cd31b019eb1f69823d58525442cccfb56c60ce34737a7f06150cf4c",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "gl/assessment-grid.docx",
+      "language": "gl",
+      "languageTag": "gl-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21558,
+      "sha256": "27f69840e634ebd06fd8e08e38d226ded0807808e4250250787a6996e785d476",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "gl/assessment-grid.png",
+      "language": "gl",
+      "languageTag": "gl-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 25152,
+      "sha256": "df80b4606560280f6b371d8ba09678c7de2901c0da3885253c3eda30af65fc66",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "he/assessment-grid.docx",
+      "language": "he",
+      "languageTag": "he-IL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21819,
+      "sha256": "a5306b9150d7a776f82257a502b8c6af0e0c160e4a6355508216fec750586b69",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "he/assessment-grid.png",
+      "language": "he",
+      "languageTag": "he-IL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18715,
+      "sha256": "08720498f8c0f8f23976e65a1d2f39dfec7cc2ac36b9b6bcf48d404c256e1757",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "hu/assessment-grid.docx",
+      "language": "hu",
+      "languageTag": "hu-HU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21680,
+      "sha256": "8b0d6ebb3ac1b3d37eeb62fbe5caa57453e976f0b8f4b74a319901fa7cf113f7",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "hu/assessment-grid.png",
+      "language": "hu",
+      "languageTag": "hu-HU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 27145,
+      "sha256": "303200feec32cb851e66a499d91d393f098ba379a7e02626b22937e640f0927e",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "hy/assessment-grid.docx",
+      "language": "hy",
+      "languageTag": "hy-AM",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21919,
+      "sha256": "792fbac3a71efe345461702cfccc772885210c7ff2f1e6d830e50034d9396f96",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "hy/assessment-grid.png",
+      "language": "hy",
+      "languageTag": "hy-AM",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 26827,
+      "sha256": "6bf0f65ff16b02350390506df77b5ec7207c50e9f22807946396ef8935d4a610",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "id/assessment-grid.docx",
+      "language": "id",
+      "languageTag": "id-ID",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21500,
+      "sha256": "4736b6f2bc490a136ffeb99ef1880865d312845edf285f8d81894f5717e0e63f",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "id/assessment-grid.png",
+      "language": "id",
+      "languageTag": "id-ID",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24080,
+      "sha256": "cdd905a37ce861ffc8738d956b2d05a567616de449a1b84f271d6555b0f1ab58",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "lo/assessment-grid.docx",
+      "language": "lo",
+      "languageTag": "lo-LA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21860,
+      "sha256": "562cb0ebff6fad89875fca96df60f205572e5d1b4706b0eb8fa1278812cd0d4b",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "lo/assessment-grid.png",
+      "language": "lo",
+      "languageTag": "lo-LA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 22842,
+      "sha256": "f2d238992ee4b42d96eda0ed2859c3f8b49412e7b9fd57b93e1cdcfe59b0a881",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "lv/assessment-grid.docx",
+      "language": "lv",
+      "languageTag": "lv-LV",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21587,
+      "sha256": "c38514986dd61961a835aa0df6791ae899ea574b2fcb2bfaf9bedf7b4d7077fe",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "lv/assessment-grid.png",
+      "language": "lv",
+      "languageTag": "lv-LV",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23940,
+      "sha256": "39c53ee4d572923ca19dead27a0338b9b1be70e03a55862af7f8fb215a805fe2",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "ms/assessment-grid.docx",
+      "language": "ms",
+      "languageTag": "ms-MY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21500,
+      "sha256": "4b81d50cc21a5e9d0401018a467c011bf72fba8f067bb8f3ba1774b426daa35a",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "ms/assessment-grid.png",
+      "language": "ms",
+      "languageTag": "ms-MY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23810,
+      "sha256": "a79195e31617149a8e492f1151bf340ede864c6ea09c45b4e1cfafc87ad64a47",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "no/assessment-grid.docx",
+      "language": "no",
+      "languageTag": "nb-NO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21521,
+      "sha256": "5c3baf1d335d81f7c5288015517d1190b0fbe2596531bd8e19ef71f16ff571e1",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "no/assessment-grid.png",
+      "language": "no",
+      "languageTag": "nb-NO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23583,
+      "sha256": "833f5161a2e241c76a63eade39ee93765b747a5e73b291587373e087f87e1bd6",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "ro/assessment-grid.docx",
+      "language": "ro",
+      "languageTag": "ro-RO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21586,
+      "sha256": "be34adef8f7104ae1c8fd7392c590566a1ae352db6b83c6672edb72b5ae9120a",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "ro/assessment-grid.png",
+      "language": "ro",
+      "languageTag": "ro-RO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24588,
+      "sha256": "587c0a8a1164deee61ef513125851fe9889133a4a43a582093fa41348f490601",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "sk/assessment-grid.docx",
+      "language": "sk",
+      "languageTag": "sk-SK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21603,
+      "sha256": "79d1f5e77ddd081820ddc935eebf0c15f985c4cfed5b7d9cef797559e3c2ae8e",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "sk/assessment-grid.png",
+      "language": "sk",
+      "languageTag": "sk-SK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24215,
+      "sha256": "f611a371f95dc1daf43dd394cd6da5138605b1c5996b5f6ddb411756c16c4d80",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "sl/assessment-grid.docx",
+      "language": "sl",
+      "languageTag": "sl-SI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21520,
+      "sha256": "ed5392679100bdb5e37dc80c9bdb95146faf561811a6b1b82d70862fc1a91767",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "sl/assessment-grid.png",
+      "language": "sl",
+      "languageTag": "sl-SI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23226,
+      "sha256": "cdfc599dcd02575fef17e840553cd35a428a927021f9c9ed9345a713bb799fd4",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "sq/assessment-grid.docx",
+      "language": "sq",
+      "languageTag": "sq-AL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21584,
+      "sha256": "ca86d07b8e939096bef653399654b73d9c2820493039065a1e6b4be04c8186c7",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "sq/assessment-grid.png",
+      "language": "sq",
+      "languageTag": "sq-AL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23800,
+      "sha256": "483ce8ca986f5e7261637c4e9abd83ab9bac6a222eafd5a137ea4a48cbb2b79a",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "sr/assessment-grid.docx",
+      "language": "sr",
+      "languageTag": "sr-Latn-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21517,
+      "sha256": "0443b64d6a2c4ed0269608684b22cc6e9cb746cb42565bce2fbe7c44b1f8ab61",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "sr/assessment-grid.png",
+      "language": "sr",
+      "languageTag": "sr-Latn-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 22864,
+      "sha256": "4ce1715ba21de35023366656b12e184671cd7f101f3cf576c3e25a1944ab99dc",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "sr-cyrl/assessment-grid.docx",
+      "language": "sr-cyrl",
+      "languageTag": "sr-Cyrl-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21866,
+      "sha256": "1075eb5fa0d6ca2168e2e654b781f3395e8bfb0f0493aeaa14016dc2371b9e85",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "sr-cyrl/assessment-grid.png",
+      "language": "sr-cyrl",
+      "languageTag": "sr-Cyrl-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23772,
+      "sha256": "316b05dd7629dad0d9e3215cc595d71035cae4c8d4c805930949e567e49a6d37",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "sv/assessment-grid.docx",
+      "language": "sv",
+      "languageTag": "sv-SE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21558,
+      "sha256": "8b436b8fc9af3414c490f3d5393f3397427620e52e73af99a84fa02e8fcf8f77",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "sv/assessment-grid.png",
+      "language": "sv",
+      "languageTag": "sv-SE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24223,
+      "sha256": "23e2bd9adbefc952e8c58ba62215c26fc23d5befaabf2a6cf733cc8d656560ab",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "tr/assessment-grid.docx",
+      "language": "tr",
+      "languageTag": "tr-TR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21590,
+      "sha256": "c5ddbb4f6e8f7713868aab9c9ff9dcdcb10910c7f978e3fe4d44c4090a1a3528",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "tr/assessment-grid.png",
+      "language": "tr",
+      "languageTag": "tr-TR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23530,
+      "sha256": "2b60f1d2e899bc8017f1b30f542e4afc1b6deb7fdb97544e3a9baa9452c733da",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "uk/assessment-grid.docx",
+      "language": "uk",
+      "languageTag": "uk-UA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21935,
+      "sha256": "360baa1e94a9c11906ed3525eff089d53294c8803ba83bbdcd8ae9dba7b2ba00",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "uk/assessment-grid.png",
+      "language": "uk",
+      "languageTag": "uk-UA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24092,
+      "sha256": "0173dd508bad423d651b324e8625845d033cebc7bee7bd59969e1b67ddbe1b22",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "vi/assessment-grid.docx",
+      "language": "vi",
+      "languageTag": "vi-VN",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21724,
+      "sha256": "52cc56c57e1e3c6dd8a610246322b6128b8bf7114c955ae1741361240f81de1a",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "vi/assessment-grid.png",
+      "language": "vi",
+      "languageTag": "vi-VN",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24031,
+      "sha256": "d2cfe564c6729ee9d1bcc3adeaf1f6d37c5bd934b522b06e5729c113ebaf03c5",
+      "layoutSource": "tools/example/template-layouts/assessment-grid.docx"
+    },
+    {
+      "file": "en/letterhead.docx",
+      "language": "en",
+      "languageTag": "en-US",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18938,
+      "sha256": "4a592adba53a59c39d335b9ca8701725ff415cd0078decabbde331d09bb3a942",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "en/letterhead.png",
+      "language": "en",
+      "languageTag": "en-US",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 20143,
+      "sha256": "b5b2e6ff2c6509a2414613f191f5d40fd0e2fe570336a02d61ac2f106130016e",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "fr/letterhead.docx",
+      "language": "fr",
+      "languageTag": "fr-FR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18920,
+      "sha256": "e2383de27f27be5412dc168423e30d2617ef47297a4b7bd65ec57a74932f2e12",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "fr/letterhead.png",
+      "language": "fr",
+      "languageTag": "fr-FR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 17467,
+      "sha256": "00d4dd7e65a87402f2d8abce5bc180d56d64ca03867d404a28e245a4a9410db6",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "de/letterhead.docx",
+      "language": "de",
+      "languageTag": "de-DE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19005,
+      "sha256": "50c3c653814575aad76bc7ff2151e5799b128a2f4c6ab2511c1c93d02e18fe3e",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "de/letterhead.png",
+      "language": "de",
+      "languageTag": "de-DE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19942,
+      "sha256": "c630db9f502686087650f94af5762e20a71cc5699913a369e0a55eec83453090",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "es/letterhead.docx",
+      "language": "es",
+      "languageTag": "es-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18994,
+      "sha256": "4206c3dfca8a8139813c4c16f5ddef0d8996ef57cf34774f31796965c26c103a",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "es/letterhead.png",
+      "language": "es",
+      "languageTag": "es-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21437,
+      "sha256": "1fae4b8278024b17a022774afa4fbb44d50073043e8ddf6b6405cea03dd23f87",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "it/letterhead.docx",
+      "language": "it",
+      "languageTag": "it-IT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19018,
+      "sha256": "06636c59fcefde49c5e85e220329a9fa118f23b02b56a818225c34ddcc3be175",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "it/letterhead.png",
+      "language": "it",
+      "languageTag": "it-IT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 20707,
+      "sha256": "432461f4b7bd01c0cd42ab6c9fe49ebbdddf23229205cecf61d6a1f1ab28addf",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "pt/letterhead.docx",
+      "language": "pt",
+      "languageTag": "pt-BR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19003,
+      "sha256": "7b3de4227721b2ce10619894231f74fa45c9fc5255e14dbf88b07b822adfbeb3",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "pt/letterhead.png",
+      "language": "pt",
+      "languageTag": "pt-BR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21314,
+      "sha256": "fa36059109e190b7d08b3d24591f638425ea8f8d5ed10bbc71888b7fd83b42a6",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "pt-pt/letterhead.docx",
+      "language": "pt-pt",
+      "languageTag": "pt-PT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19019,
+      "sha256": "c88362dcaa92fa01b11c55e8d8228e45dcc0695410507210c1e13c472f3354db",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "pt-pt/letterhead.png",
+      "language": "pt-pt",
+      "languageTag": "pt-PT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21513,
+      "sha256": "f299bbe434cbc5b54d293d4054bb2f8e01ea46c45f1576d4c2b6f95910daf96c",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "nl/letterhead.docx",
+      "language": "nl",
+      "languageTag": "nl-NL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18955,
+      "sha256": "786d3edc372d0c5715c42f30e71a905883a01616023875c53578c5334561d1f8",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "nl/letterhead.png",
+      "language": "nl",
+      "languageTag": "nl-NL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 20584,
+      "sha256": "9401e638507078a5dc8eb8f674a1bdd9499d2fd5f455a68ef4ab621bf3dfffc0",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "pl/letterhead.docx",
+      "language": "pl",
+      "languageTag": "pl-PL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19077,
+      "sha256": "95c973f9ed9b417c3b5bc6a51f524830a0a37720548f4874ec00e2c333509945",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "pl/letterhead.png",
+      "language": "pl",
+      "languageTag": "pl-PL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21757,
+      "sha256": "dcbc292936dbf6e0dd0f46869acc833f910072f0cd310c50a766a16cc391a864",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "ru/letterhead.docx",
+      "language": "ru",
+      "languageTag": "ru-RU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19422,
+      "sha256": "c5172aa37ccddc883336e83a65216f4ad3213810b765642baf79d172d2b7cd3c",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "ru/letterhead.png",
+      "language": "ru",
+      "languageTag": "ru-RU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 22857,
+      "sha256": "b337b65075977649398a3debd17f8a7a2539409e655c3a585bcac5aef80bf34f",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "ar/letterhead.docx",
+      "language": "ar",
+      "languageTag": "ar-SA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19362,
+      "sha256": "46afb989b0b874b301776ce127970fc8a9394dc66a32208b594e0701c57c9e27",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "ar/letterhead.png",
+      "language": "ar",
+      "languageTag": "ar-SA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 15191,
+      "sha256": "12b42ee965848710e1d158c28547cb10decb7e60b66307c63bb6acaddd385fe4",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "az/letterhead.docx",
+      "language": "az",
+      "languageTag": "az-Latn-AZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19101,
+      "sha256": "007a58bc18e1549dd7a39d37e04f1327e546f76e90116c068f0d327d5232643a",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "az/letterhead.png",
+      "language": "az",
+      "languageTag": "az-Latn-AZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19417,
+      "sha256": "c684a0e6775d0d61c6ee7a01ea8fcc3067a63b13e2b927b43ef7f51fb98edbad",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "be/letterhead.docx",
+      "language": "be",
+      "languageTag": "be-BY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19387,
+      "sha256": "e9dabb4ad3aa0ad325fd144af4a4550111501cb1b14c9812fc2b1701615a2c91",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "be/letterhead.png",
+      "language": "be",
+      "languageTag": "be-BY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21472,
+      "sha256": "a8a09130b1a306c479ec3eb23bbd5a6aef508ffbed39eb1f50dbf3d2b9658b9a",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "bg/letterhead.docx",
+      "language": "bg",
+      "languageTag": "bg-BG",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19318,
+      "sha256": "d9deaad1be54e943d5b7309039b57156d77989420f75ec0eb58767d12e4116e5",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "bg/letterhead.png",
+      "language": "bg",
+      "languageTag": "bg-BG",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 20519,
+      "sha256": "1c488d75fe90bbfdc05a7797f505d6619139c1f81805aec09251e40303a40788",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "ca/letterhead.docx",
+      "language": "ca",
+      "languageTag": "ca-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19041,
+      "sha256": "26e11f68b8cd13b64cde7ccbf31201566f4e8c7c0d4dab90e7fa09a5f949f5ba",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "ca/letterhead.png",
+      "language": "ca",
+      "languageTag": "ca-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 20681,
+      "sha256": "9761a89531a40c6456a61e1862202c9f9e8ba3b6f08b2f527bfa4b6721f1a793",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "cs/letterhead.docx",
+      "language": "cs",
+      "languageTag": "cs-CZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19068,
+      "sha256": "0efc07ef918ef4439d67241d61440141ec2bea31e416dce1dca9812d8a467f58",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "cs/letterhead.png",
+      "language": "cs",
+      "languageTag": "cs-CZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19877,
+      "sha256": "e8f0fec6a3bd3e60b81fbec7df826cfbd4bcb45e5f5fc9001f47d2a30d13b3aa",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "da/letterhead.docx",
+      "language": "da",
+      "languageTag": "da-DK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18955,
+      "sha256": "e9824a91e70b3c01176f681a083cc5b814e67019b4b70bf3f94b2d08c16acf9e",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "da/letterhead.png",
+      "language": "da",
+      "languageTag": "da-DK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19570,
+      "sha256": "e96d72559f343a8f021e93810676b94300eac319006d2888b23cfda0cfd6d6e4",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "el/letterhead.docx",
+      "language": "el",
+      "languageTag": "el-GR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19457,
+      "sha256": "b9c06083b5434349c94a61954a2bbaa42b5775cb68b13d2ba88af8c32da05adc",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "el/letterhead.png",
+      "language": "el",
+      "languageTag": "el-GR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23533,
+      "sha256": "559d583e1be981f1713eae97c0cca793138d15c6596be82007a8c5cb58671b07",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "eu/letterhead.docx",
+      "language": "eu",
+      "languageTag": "eu-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18981,
+      "sha256": "dad99ff730a4ba7e7782d1d28d3adcfd05722537f3be1c5ba07ed9fa9437835a",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "eu/letterhead.png",
+      "language": "eu",
+      "languageTag": "eu-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 20452,
+      "sha256": "c201cf646bcc86d4f440de5c22fa83efd6cfe3721c0e5311d2ea1ccc484df722",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "fi/letterhead.docx",
+      "language": "fi",
+      "languageTag": "fi-FI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18998,
+      "sha256": "671194c381b6d411c6b79ebb1da9142208f2b1d3d6525c710c3752bb7928f0fa",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "fi/letterhead.png",
+      "language": "fi",
+      "languageTag": "fi-FI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19414,
+      "sha256": "1b2c12e4291f2f95f9b1a8187a35c10b3ccbeab08c97196c698f1553de8229fb",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "gl/letterhead.docx",
+      "language": "gl",
+      "languageTag": "gl-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19005,
+      "sha256": "3af605b67cfea11de8479cd269e9faa60f6734471335521bb68f409d49c46ad8",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "gl/letterhead.png",
+      "language": "gl",
+      "languageTag": "gl-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21267,
+      "sha256": "0d76c0545a434f96aee99c771b72b6aa60f8e7490a14aabbb813efbdcea1c8fd",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "he/letterhead.docx",
+      "language": "he",
+      "languageTag": "he-IL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19276,
+      "sha256": "c0b64aba6aae42415173f014d42cc79d6c8747acca9c54c4cf39a16c03a4fa78",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "he/letterhead.png",
+      "language": "he",
+      "languageTag": "he-IL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 13643,
+      "sha256": "630d3ab3a6bbfe6a8d7445b9ae78f547851d79569a727e108518e7de1676a6f9",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "hu/letterhead.docx",
+      "language": "hu",
+      "languageTag": "hu-HU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19071,
+      "sha256": "9419474d12282e1c680822413b4f6bd4a875f9918690bafed3617be0a01612ec",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "hu/letterhead.png",
+      "language": "hu",
+      "languageTag": "hu-HU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 20512,
+      "sha256": "3ea942443d426104b78ebf765ba536fac12bf54a13b85f9b9d126091def0c07d",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "hy/letterhead.docx",
+      "language": "hy",
+      "languageTag": "hy-AM",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19310,
+      "sha256": "9b0be5d8af5f843595e3badaab3e5593024f0738d2f10e33293466b12ef29268",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "hy/letterhead.png",
+      "language": "hy",
+      "languageTag": "hy-AM",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23146,
+      "sha256": "8bd0a09acf4b9939ee30acebc01fcc8605e1e1e63faa9940ca2397632734ddc6",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "id/letterhead.docx",
+      "language": "id",
+      "languageTag": "id-ID",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18932,
+      "sha256": "755c85273c59e58e88f2b0f8e33b0dba6aae859701adc7ce1260ea8d57b5a1a0",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "id/letterhead.png",
+      "language": "id",
+      "languageTag": "id-ID",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18331,
+      "sha256": "2972f8bb35f6eda109e687d0fddb8045266a1e4dbe10644adb4a7a6dc354b328",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "lo/letterhead.docx",
+      "language": "lo",
+      "languageTag": "lo-LA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19339,
+      "sha256": "9b826149215a25a7ec6b06e6c2910b908c251225f988564c7b7c252de94c38c6",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "lo/letterhead.png",
+      "language": "lo",
+      "languageTag": "lo-LA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 20399,
+      "sha256": "16acb6f558a78f6c6e85a79806bb4d69b6d717d046248b96946729d267e93210",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "lv/letterhead.docx",
+      "language": "lv",
+      "languageTag": "lv-LV",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19049,
+      "sha256": "d70b652386b389f97dd55d05c71c6c6b62f43ef0fd929623b43ca752168236d9",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "lv/letterhead.png",
+      "language": "lv",
+      "languageTag": "lv-LV",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 20113,
+      "sha256": "c780fd7a1b1da6c7493875067fca1c2d00e876524e7a6c7e7cfdb432b9c7fbce",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "ms/letterhead.docx",
+      "language": "ms",
+      "languageTag": "ms-MY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18947,
+      "sha256": "cf26842c403d3115c1fefad9827384ecb815e598c7b420c00bb152ec73dab637",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "ms/letterhead.png",
+      "language": "ms",
+      "languageTag": "ms-MY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19147,
+      "sha256": "9772cbff02f592560e54e28070abaf9b637ca961d9b57e564a2edb61eb8fc868",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "no/letterhead.docx",
+      "language": "no",
+      "languageTag": "nb-NO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18955,
+      "sha256": "27d6d29a0ee25f486025bde364515fe14ccfed79585283c25d96114fc184aac5",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "no/letterhead.png",
+      "language": "no",
+      "languageTag": "nb-NO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18908,
+      "sha256": "aa5b73e54aabc0db2efae911ba1eb03b8ad1097d985e8b995a3c6252c02ed15e",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "ro/letterhead.docx",
+      "language": "ro",
+      "languageTag": "ro-RO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19033,
+      "sha256": "fe03ce3381daaaf220a156aa8674ebba99e303b47e7ae46799f0002f81f4bd9d",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "ro/letterhead.png",
+      "language": "ro",
+      "languageTag": "ro-RO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 20441,
+      "sha256": "1e1ba2301263943e0eb3c3590de1b162c46f018cf3aa6eb03bd46b9ebb0c0a35",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "sk/letterhead.docx",
+      "language": "sk",
+      "languageTag": "sk-SK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19060,
+      "sha256": "153fb8dbc21e73b12097ea067e619a465b84586eee35ad2b44e50a038d0b9711",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "sk/letterhead.png",
+      "language": "sk",
+      "languageTag": "sk-SK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 20319,
+      "sha256": "c074dfd4915f5a7d9d521ddc8e9845a90570b1cfa145aaa02e107aac6d0271e0",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "sl/letterhead.docx",
+      "language": "sl",
+      "languageTag": "sl-SI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18982,
+      "sha256": "2274566d6889471bc346ef1e74874055b5619ee3812302a7135768688ef00453",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "sl/letterhead.png",
+      "language": "sl",
+      "languageTag": "sl-SI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19141,
+      "sha256": "b2e6cbedfbb285aa5f9b76b8c492d820d52251c970bd73fc2a76205fbd6871d2",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "sq/letterhead.docx",
+      "language": "sq",
+      "languageTag": "sq-AL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19020,
+      "sha256": "e056563ffaa5f2059cb4d90b7e58e6b9c5e574b9879b4e7f44b3c627c63a318f",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "sq/letterhead.png",
+      "language": "sq",
+      "languageTag": "sq-AL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19966,
+      "sha256": "9dffdeed3564652634b1bfd0bdd48a28355a57259d3fc1b28377a0afb1dacc08",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "sr/letterhead.docx",
+      "language": "sr",
+      "languageTag": "sr-Latn-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18984,
+      "sha256": "f50e5f5e5f8295570b2bc519de8e5dc885d1984cd93a303e451b4f8bd062ac33",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "sr/letterhead.png",
+      "language": "sr",
+      "languageTag": "sr-Latn-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18350,
+      "sha256": "a4fca8f183a13c776039277e22e17994d765db86637d9a22b1defdd82e043ea1",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "sr-cyrl/letterhead.docx",
+      "language": "sr-cyrl",
+      "languageTag": "sr-Cyrl-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19292,
+      "sha256": "d6725a67cc3cf76b8728f64776dc76efd175dcb5a5cf27fffef359d80866d7d8",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "sr-cyrl/letterhead.png",
+      "language": "sr-cyrl",
+      "languageTag": "sr-Cyrl-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19443,
+      "sha256": "117c748dc8dd9860f7770c235b067678e8fbbe37f0eec54f913b1b0240cfa1e7",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "sv/letterhead.docx",
+      "language": "sv",
+      "languageTag": "sv-SE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18961,
+      "sha256": "98b3e76ba0488bc3c7c695aaf0353e434c66003c4a7533862782f59eaf5bbb03",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "sv/letterhead.png",
+      "language": "sv",
+      "languageTag": "sv-SE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18624,
+      "sha256": "67172afd4afd97ee485017fed7f887c056007a1f6ede64ec67c216025c51ba83",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "tr/letterhead.docx",
+      "language": "tr",
+      "languageTag": "tr-TR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19022,
+      "sha256": "c39ada6869c9cb3323afb8dfaf469cb93b4fa13ab0b3152ae041fbd59c7563a5",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "tr/letterhead.png",
+      "language": "tr",
+      "languageTag": "tr-TR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18274,
+      "sha256": "dfb988fc1c0bcb4ffc61370d19febbab74ed40ff9a4522198bb200a56e9f7b64",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "uk/letterhead.docx",
+      "language": "uk",
+      "languageTag": "uk-UA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19389,
+      "sha256": "198e5f4dfa62eb281dda4cc6b71a0c1c4c8bfec34d33dba65b2a2b54cda5d150",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "uk/letterhead.png",
+      "language": "uk",
+      "languageTag": "uk-UA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 21284,
+      "sha256": "77edac10420fb684b326268e7ee8ef12e11c5a88b34cd08ee9a83a132f96a02a",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "vi/letterhead.docx",
+      "language": "vi",
+      "languageTag": "vi-VN",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19206,
+      "sha256": "7ea9d657f7d424d90d630e8f9cd28fa489e9c0bd1710bb0dc371c4973e89a3c7",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "vi/letterhead.png",
+      "language": "vi",
+      "languageTag": "vi-VN",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 19741,
+      "sha256": "88fa00622a5b6cbf895f23734371460300fde4e5bb34b3ec9ccc445f4b9620a7",
+      "layoutSource": "tools/example/template-layouts/letterhead.docx"
+    },
+    {
+      "file": "en/resume-two-columns.docx",
+      "language": "en",
+      "languageTag": "en-US",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16727,
+      "sha256": "7b7c7b8508db76fc07d63ed66bb66d364c7982fc1726001e936c65f2dc299731",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "en/resume-two-columns.png",
+      "language": "en",
+      "languageTag": "en-US",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23418,
+      "sha256": "bee438dde2f23a541a2de9946b4c3c91f9da1a0ee1d02e780dd79d36e7a2f2d4",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "fr/resume-two-columns.docx",
+      "language": "fr",
+      "languageTag": "fr-FR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16784,
+      "sha256": "f4e5625ba121651e271b337135fc8753506661cd26c8517c0be3ca9c1f8161f2",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "fr/resume-two-columns.png",
+      "language": "fr",
+      "languageTag": "fr-FR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18722,
+      "sha256": "5832bb3a0d9cd51e8db10bf06f8cd39ad50c6447a66e27dd962d955950599482",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "de/resume-two-columns.docx",
+      "language": "de",
+      "languageTag": "de-DE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16750,
+      "sha256": "030624738a05a6a39e5b14ac4b317b93b6116d23b51cddb85d31a4de065087cb",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "de/resume-two-columns.png",
+      "language": "de",
+      "languageTag": "de-DE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23933,
+      "sha256": "a20a853a25d9c48228e72086baac0aeb3918f6d13bff5c1c2ddb4a6c81d451e3",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "es/resume-two-columns.docx",
+      "language": "es",
+      "languageTag": "es-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16788,
+      "sha256": "af5eeb018b225c34b54c002c2517c759b057de40578129a92a6ab5a432c0da0f",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "es/resume-two-columns.png",
+      "language": "es",
+      "languageTag": "es-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 28129,
+      "sha256": "9cac132d40ab0af4d359714cdf8505eaf555576a645cc00fe7ffe80832ea4554",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "it/resume-two-columns.docx",
+      "language": "it",
+      "languageTag": "it-IT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16777,
+      "sha256": "6dc47a15076c6c64323f5f94c38ae315bea27f5d0660afcae2981316b0a2a5b0",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "it/resume-two-columns.png",
+      "language": "it",
+      "languageTag": "it-IT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 25924,
+      "sha256": "41c2351ffd0ce57efbbe59c09fc19408e4e918e858e7deb278c0affd791b5695",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "pt/resume-two-columns.docx",
+      "language": "pt",
+      "languageTag": "pt-BR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16808,
+      "sha256": "e44ddbe1f78ac7b303c4eb7c3ec1dbb1d8746043bff61db8e6533cf133eed8e4",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "pt/resume-two-columns.png",
+      "language": "pt",
+      "languageTag": "pt-BR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 27188,
+      "sha256": "393cfa1b9ea922ef533ead73809da92a8c00934342cab618c1de3b438ee4e0f1",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "pt-pt/resume-two-columns.docx",
+      "language": "pt-pt",
+      "languageTag": "pt-PT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16812,
+      "sha256": "3363e0910a18ff670e71e76ee72612e6b7415d505344adca7fadd9d132159e85",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "pt-pt/resume-two-columns.png",
+      "language": "pt-pt",
+      "languageTag": "pt-PT",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 27129,
+      "sha256": "d1ff0b9807c86e03e63f439c06b33c7a4231fa78f9bfb42f7d8f2fd049f8a6f1",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "nl/resume-two-columns.docx",
+      "language": "nl",
+      "languageTag": "nl-NL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16735,
+      "sha256": "30683949807760c51a03917366f21a013c5252c958d8ca2afbbe4bb00a777e2d",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "nl/resume-two-columns.png",
+      "language": "nl",
+      "languageTag": "nl-NL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24594,
+      "sha256": "a99dcd507c8868e4b03477f71249913231bfaaa90b6c95546ef934b890b29945",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "pl/resume-two-columns.docx",
+      "language": "pl",
+      "languageTag": "pl-PL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16828,
+      "sha256": "4f34683a06ff9773b18984309c9839b4f1156728b69fb44ce19732eee33f9955",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "pl/resume-two-columns.png",
+      "language": "pl",
+      "languageTag": "pl-PL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 27197,
+      "sha256": "d44cd030ce55b7e92f8a101ea2ae1e452725e348d2d0bc46d3463e6181dcfbc8",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "ru/resume-two-columns.docx",
+      "language": "ru",
+      "languageTag": "ru-RU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16994,
+      "sha256": "e7477c1b59f93f0daa44981625fc2af5dbd3d340f882cea07bc13b0dad34afee",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "ru/resume-two-columns.png",
+      "language": "ru",
+      "languageTag": "ru-RU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 26006,
+      "sha256": "3d410fae8e83bc537548b71b6ae6ab05da9a2df6d76a36494e1ebc6922604598",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "ar/resume-two-columns.docx",
+      "language": "ar",
+      "languageTag": "ar-SA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16988,
+      "sha256": "5849c2d7d6936c8552fcd92a0c2572403ccf9455a1fe6d282357ec20c4437409",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "ar/resume-two-columns.png",
+      "language": "ar",
+      "languageTag": "ar-SA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 18149,
+      "sha256": "d2e59f578c7d7ab0c4ece2e4eea460625a03e9374b2cb95aef6f52896c5a46c7",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "az/resume-two-columns.docx",
+      "language": "az",
+      "languageTag": "az-Latn-AZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16824,
+      "sha256": "0f581686d3b068b9b6b6ffd30c850af6616743ac095d6e1f5cd13406ed59cf27",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "az/resume-two-columns.png",
+      "language": "az",
+      "languageTag": "az-Latn-AZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 22588,
+      "sha256": "6ada41a3a94a626aa929bc66380cb64bfb73e0d295eb3e10ad75af89b0bb8545",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "be/resume-two-columns.docx",
+      "language": "be",
+      "languageTag": "be-BY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 17017,
+      "sha256": "091beaaa4c50213e9c80fb55aa51992490d1408400bfdbff5727618a90181afe",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "be/resume-two-columns.png",
+      "language": "be",
+      "languageTag": "be-BY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 26205,
+      "sha256": "cc8ab0b86763f624adfdb4f8c8034bf3233298358b827804c745ccbb55125442",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "bg/resume-two-columns.docx",
+      "language": "bg",
+      "languageTag": "bg-BG",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16967,
+      "sha256": "82c495119a859b4ac48befd3465dfe5f00486b8c688d6c65f9e1430eb1ebb655",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "bg/resume-two-columns.png",
+      "language": "bg",
+      "languageTag": "bg-BG",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24666,
+      "sha256": "902ff03123dd9754219e4d510e65b61b9851376c49b6a81ad5e52644475cb689",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "ca/resume-two-columns.docx",
+      "language": "ca",
+      "languageTag": "ca-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16802,
+      "sha256": "1ae8ddd29d41c92c856078a53c0ec3188df0ba3741201df737ad91d863c2cd2b",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "ca/resume-two-columns.png",
+      "language": "ca",
+      "languageTag": "ca-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 26607,
+      "sha256": "dbecd44be9698581f917f1a6d06acbac3f6c2228d25abfd8ed44ffa6ace9c525",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "cs/resume-two-columns.docx",
+      "language": "cs",
+      "languageTag": "cs-CZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16850,
+      "sha256": "b75215c5535341ed0ef6317354f05bf2a6d15369b3122edb998123d164fc9594",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "cs/resume-two-columns.png",
+      "language": "cs",
+      "languageTag": "cs-CZ",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 25183,
+      "sha256": "c58def2c80a7aa59b36457d29bf574613799fc3de9ab5b440f5af24f61e0eca3",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "da/resume-two-columns.docx",
+      "language": "da",
+      "languageTag": "da-DK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16738,
+      "sha256": "062a7402696ae3416c4dd692e44bddcd3fc0d9602cf3f7d7e0f46fe351a4cedc",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "da/resume-two-columns.png",
+      "language": "da",
+      "languageTag": "da-DK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23986,
+      "sha256": "d4e29db0da48296b02d10437b3f9ec9df0d639250694b7fd2d6a07b85638d8ee",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "el/resume-two-columns.docx",
+      "language": "el",
+      "languageTag": "el-GR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 17037,
+      "sha256": "28675976942a2fdfea668b9f6ff357bfc3c6ea3fec5947d443d9bad9a54e80b2",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "el/resume-two-columns.png",
+      "language": "el",
+      "languageTag": "el-GR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 28182,
+      "sha256": "ebeca738f57ee718f6210dcd36d5dd29ad59abccecf104c0bb09837c472a9e61",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "eu/resume-two-columns.docx",
+      "language": "eu",
+      "languageTag": "eu-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16773,
+      "sha256": "46d75aa94f08c34504e66ba6b3c9417bc7d7be67ddaa6db514393560d38130f9",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "eu/resume-two-columns.png",
+      "language": "eu",
+      "languageTag": "eu-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 25288,
+      "sha256": "f14181261c3a722c6516c1fbeafa7290e07eb5442e1dedc178296e3377fe625b",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "fi/resume-two-columns.docx",
+      "language": "fi",
+      "languageTag": "fi-FI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16766,
+      "sha256": "b580721a5e0175ff0c5488a2e0baae08b4476b314081d0e47d0f3fae4a64ddc4",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "fi/resume-two-columns.png",
+      "language": "fi",
+      "languageTag": "fi-FI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23741,
+      "sha256": "cd934beb3b141a63e98eead715f40178ee0df22815bfe4b9272f24b012b8c89e",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "gl/resume-two-columns.docx",
+      "language": "gl",
+      "languageTag": "gl-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16787,
+      "sha256": "8fabba3a1bf96e6b07fbb653ee892b0a51eee9122248ed0b78fb7e494e2159ca",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "gl/resume-two-columns.png",
+      "language": "gl",
+      "languageTag": "gl-ES",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 27230,
+      "sha256": "03d9ffea617ec2e5f3419f1b41f76dcbee431be45a82cae1fb1bf633d01513c8",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "he/resume-two-columns.docx",
+      "language": "he",
+      "languageTag": "he-IL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16922,
+      "sha256": "4e8b7a25858b23460a4f0417eee71c626f077d443856a0c0e3e4547f01eeaf71",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "he/resume-two-columns.png",
+      "language": "he",
+      "languageTag": "he-IL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16386,
+      "sha256": "fe2917d297debe0b3a9c052634797487a0dc647e12475aba0b345b8b93c80888",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "hu/resume-two-columns.docx",
+      "language": "hu",
+      "languageTag": "hu-HU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16811,
+      "sha256": "abb0ac419ae3b09cb462e65e2cf9b9b7c90144ae57a90e92a3461b4811726f59",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "hu/resume-two-columns.png",
+      "language": "hu",
+      "languageTag": "hu-HU",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24829,
+      "sha256": "0cc6758ac9d77a4e146b162dfebfe60232e761c489b144bb9b9548ea81a19f2a",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "hy/resume-two-columns.docx",
+      "language": "hy",
+      "languageTag": "hy-AM",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16952,
+      "sha256": "b8377765a40ae91df117f4295fba419ba411411b1bc4ee0bf501d21ea70d198b",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "hy/resume-two-columns.png",
+      "language": "hy",
+      "languageTag": "hy-AM",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 28313,
+      "sha256": "1ccc9f2fe5ea731fbab79bfa5c19ebf5ff331b8e2519b14ceb25f63c19a23292",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "id/resume-two-columns.docx",
+      "language": "id",
+      "languageTag": "id-ID",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16736,
+      "sha256": "d90e5ecd177df4327cd974d929059bb7effa25dbb96412055f94ad9e2461b705",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "id/resume-two-columns.png",
+      "language": "id",
+      "languageTag": "id-ID",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 22457,
+      "sha256": "09cdab5121d84701fdf01af7ca9a24cd1a6f72213abc768df8b35044e2aef5a0",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "lo/resume-two-columns.docx",
+      "language": "lo",
+      "languageTag": "lo-LA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16962,
+      "sha256": "3313b109542710616dcba8dc8634aa0335ddaa21e3f180c26dd4c63f0d2c60c1",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "lo/resume-two-columns.png",
+      "language": "lo",
+      "languageTag": "lo-LA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 22454,
+      "sha256": "e61ac98c97235e7a3bc1f5147d7b5833ce03e8cff9c5245b57ac2691a6b12c4d",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "lv/resume-two-columns.docx",
+      "language": "lv",
+      "languageTag": "lv-LV",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16795,
+      "sha256": "233dabb796cf8fd3f9502b6a24b1a77e6bfba8c5533dc69e69d1e3c924a7fec5",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "lv/resume-two-columns.png",
+      "language": "lv",
+      "languageTag": "lv-LV",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24794,
+      "sha256": "97d56a4e3d1678c85718ca82883a6037d67fca472727d504d65641a6ca7b1df2",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "ms/resume-two-columns.docx",
+      "language": "ms",
+      "languageTag": "ms-MY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16738,
+      "sha256": "8dd4bb3b57be881f8a5be9cbb5b1dd7c750a2e651ac58786f282aa1a7a856363",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "ms/resume-two-columns.png",
+      "language": "ms",
+      "languageTag": "ms-MY",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 22663,
+      "sha256": "3ea46296610c49d93044965b0435ffce6c2619260e5cd87d219bd4247c96160b",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "no/resume-two-columns.docx",
+      "language": "no",
+      "languageTag": "nb-NO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16731,
+      "sha256": "f6a83adc75892f8be90ac8a6282c020714edf2e6d6a78035cd57ebfc61c211f1",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "no/resume-two-columns.png",
+      "language": "no",
+      "languageTag": "nb-NO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 22973,
+      "sha256": "40a090aa979f2648d893bace9d4bb01ae715fcb48f47380ee7bfefa9ac8bf07e",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "ro/resume-two-columns.docx",
+      "language": "ro",
+      "languageTag": "ro-RO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16800,
+      "sha256": "7326b5edc4e6a2b4c4c4d9e3b1fb31bdff13b5548274477db2a029456c45565f",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "ro/resume-two-columns.png",
+      "language": "ro",
+      "languageTag": "ro-RO",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 25317,
+      "sha256": "67416586493e9b65cdb80145356a525d963bfba19c888132f92a752e747612c5",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "sk/resume-two-columns.docx",
+      "language": "sk",
+      "languageTag": "sk-SK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16848,
+      "sha256": "fe5d8d48bf6fe02ede773c3d47bfd5353e2a3131f23158d377b1b0cae4beee35",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "sk/resume-two-columns.png",
+      "language": "sk",
+      "languageTag": "sk-SK",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24792,
+      "sha256": "ea94122d9f1d24e8863ad1706dae171562a3f0427b1d1b0830918106474abf56",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "sl/resume-two-columns.docx",
+      "language": "sl",
+      "languageTag": "sl-SI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16785,
+      "sha256": "adfd7c8e4a46fe4cfcf5889f2badf9218af9a109b6f4d57865f1f3dabd64176c",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "sl/resume-two-columns.png",
+      "language": "sl",
+      "languageTag": "sl-SI",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24524,
+      "sha256": "e4a06cfbe1247a1cf4bc4a169d9e1c8d2d82ff23158acfb75babe32bbf7fd5aa",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "sq/resume-two-columns.docx",
+      "language": "sq",
+      "languageTag": "sq-AL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16796,
+      "sha256": "f165d1164b5fe9a2feb28ed97276e6b8ae18574871c3ba79d5e9b1a9e05bb0dd",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "sq/resume-two-columns.png",
+      "language": "sq",
+      "languageTag": "sq-AL",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24251,
+      "sha256": "3e4102293eaef73c96d13bae931865025c05d8120a2483125ebc9cd4fc75ec15",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "sr/resume-two-columns.docx",
+      "language": "sr",
+      "languageTag": "sr-Latn-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16772,
+      "sha256": "97e5af3f27f06f0009c1948bf5fad4e3cb867e86d1783aadec55eecbbd89b156",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "sr/resume-two-columns.png",
+      "language": "sr",
+      "languageTag": "sr-Latn-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23203,
+      "sha256": "5afbe3c6c00fb6e3127e3dfba60faf2331b9baa46b1eb872bf0ff778c84dc03b",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "sr-cyrl/resume-two-columns.docx",
+      "language": "sr-cyrl",
+      "languageTag": "sr-Cyrl-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16986,
+      "sha256": "79026c022ce57975afa28c625705666563368d472e12262437b03883a87e1ffe",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "sr-cyrl/resume-two-columns.png",
+      "language": "sr-cyrl",
+      "languageTag": "sr-Cyrl-RS",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24392,
+      "sha256": "6a6df5653fd3fa9a4a7a313f5f4ecb536dba4f25de938bf648d0dfda13a3e9a4",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "sv/resume-two-columns.docx",
+      "language": "sv",
+      "languageTag": "sv-SE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16740,
+      "sha256": "89f76d9db879e38c63dd94cbed22bd6bd207e23f8f21afb5823b1c6345084ab0",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "sv/resume-two-columns.png",
+      "language": "sv",
+      "languageTag": "sv-SE",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 22592,
+      "sha256": "8f6ff9eb67e45c6c163f68f9c6f7aa9add2364d95ff41bdcfbd1f4da11d902e3",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "tr/resume-two-columns.docx",
+      "language": "tr",
+      "languageTag": "tr-TR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16777,
+      "sha256": "cfc17b1241bd05c4c67163d2a4f1c6f3677397e3126c20166a4a62fae726c364",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "tr/resume-two-columns.png",
+      "language": "tr",
+      "languageTag": "tr-TR",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 20785,
+      "sha256": "0bc27c002d1319a2d883b26a402174763713c022dba1cf2a7defb5fc03b991f0",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "uk/resume-two-columns.docx",
+      "language": "uk",
+      "languageTag": "uk-UA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 17000,
+      "sha256": "d413b10cccd5b0a442e70ed4fd4aa46b1c1f7549a6261f95d2753b4bbd231438",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "uk/resume-two-columns.png",
+      "language": "uk",
+      "languageTag": "uk-UA",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 24750,
+      "sha256": "df722aff51098f2bc66b1bc27fc19704b560718fea553587d8e5c49091f7d89b",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "vi/resume-two-columns.docx",
+      "language": "vi",
+      "languageTag": "vi-VN",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 16906,
+      "sha256": "78e00c514aab62f79b64ad23db5285e6160075bfd2d89bb322ea0d7462e10401",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    },
+    {
+      "file": "vi/resume-two-columns.png",
+      "language": "vi",
+      "languageTag": "vi-VN",
+      "license": "CC0-1.0",
+      "fictional": true,
+      "bytes": 23340,
+      "sha256": "8211b9c1daaec6a1f2c88028fa9c4bdbe30e28124e9f16fbfd3e618407c4e584",
+      "layoutSource": "tools/example/template-layouts/resume-two-columns.docx"
+    }
+  ]
+}

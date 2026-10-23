@@ -1,0 +1,18 @@
+.env
+*.local
+node_modules/
+/out/
+
+# Real user documents (Gaël): never in git. They live on build-host in /srv/elixiroffice/corpus-private/
+corpus/real/
+corpus-private/
+*.real.docx
+*.real.odt
+*.real.pdf
+fonts-user/
+*.ttf
+*.otf
+*.ttc
+
+# Generated in isolated release build copies.
+/desktop/build-info.json
