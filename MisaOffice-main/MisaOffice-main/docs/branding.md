@@ -1,5 +1,13 @@
 # Rebranding: what was touched
 
+## MisaOffice rebrand status (2026-10-23)
+
+The product-facing desktop identity, installer display names, server company/title metadata, start-page manifest and wordmarks now say **MisaOffice**. Source history, copyright/SPDX notices, contributor credits and the lineage to ElixirOffice, Euro-Office and ONLYOFFICE remain intact.
+
+Internal identifiers such as `org.elixiroffice.desktop`, the `elixiroffice` theme/storage paths, the desktop protocol host and the existing user-data location are intentionally unchanged for compatibility. Do not rename these as part of a text-only brand pass.
+
+MisaOffice installers and server images have not been released. The AppImage release helper still embeds the original ElixirOffice GitHub repository as its external update target; replace and verify that target before publishing MisaOffice artifacts. The app itself does not automatically check for updates.
+
 List to re-verify at each upstream rebase. Principle: we do not modify the upstream's files when a branding mechanism exists; our brand lives in `branding/` of our repository.
 
 ## Done (2026-10-05, dev environment)
