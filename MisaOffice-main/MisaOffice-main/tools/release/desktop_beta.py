@@ -473,7 +473,7 @@ if root.exists():
     assert marker.is_file() and not marker.is_symlink(), "Existing root is not a release-owned folder"
 else:
     root.mkdir(parents=True)
-    marker.write_text("ElixirOffice beta2 release workspace\n")
+    marker.write_text("MisaOffice release workspace\n")
 assert not job.exists() and not job.is_symlink()
 job.mkdir()
 """

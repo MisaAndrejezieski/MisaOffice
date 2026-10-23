@@ -58,7 +58,7 @@ def set_names(font, family, style, version_note):
             name.removeNames(nameID=rec.nameID)
     name.setName(family, 1, 3, 1, 0x409)
     name.setName(rib, 2, 3, 1, 0x409)
-    name.setName(f"{ps};ElixirOffice-metric", 3, 3, 1, 0x409)
+    name.setName(f"{ps};MisaOffice-metric", 3, 3, 1, 0x409)
     name.setName(full, 4, 3, 1, 0x409)
     name.setName(ps, 6, 3, 1, 0x409)
     old = name.getDebugName(5) or ""

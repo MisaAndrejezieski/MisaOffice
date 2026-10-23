@@ -14,7 +14,7 @@
 # theme "elixiroffice" from branding/web-apps/theme/elixiroffice.
 
 variable "COMPANY_NAME" {
-  default = "ElixirOffice"
+  default = "MisaOffice"
 }
 
 # Local image names only (elixiroffice/<target>:TAG); nothing is pushed.

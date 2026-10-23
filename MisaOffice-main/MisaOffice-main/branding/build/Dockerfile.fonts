@@ -18,6 +18,6 @@ COPY --from=pack /out/ /usr/share/fonts/truetype/elixiroffice/
 # "true": data-container mode, no service restart during the build
 RUN documentserver-generate-allfonts.sh true && grep -q '"Gelasio Metric"' "${EO_ROOT}/sdkjs/common/AllFonts.js"
 ARG REVISION=unknown
-LABEL org.opencontainers.image.title="ElixirOffice document server" \
+LABEL org.opencontainers.image.title="MisaOffice document server" \
       org.opencontainers.image.revision="${REVISION}" \
       org.opencontainers.image.licenses="AGPL-3.0-only"
