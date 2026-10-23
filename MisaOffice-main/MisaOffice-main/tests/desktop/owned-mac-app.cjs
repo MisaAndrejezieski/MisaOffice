@@ -36,7 +36,7 @@ async function stop(env){
  return [...owned];})();return env.cleanup;
 }
 async function launch(root,exe,file){
- assert(process.platform==='darwin','This runner is for owned Mac tests');root=await fs.realpath(root);exe=await fs.realpath(exe);assert(exe.startsWith(root+path.sep)&&exe.endsWith('.app/Contents/MacOS/ElixirOffice'));
+ assert(process.platform==='darwin','This runner is for owned Mac tests');root=await fs.realpath(root);exe=await fs.realpath(exe);assert(exe.startsWith(root+path.sep)&&exe.endsWith('.app/Contents/MacOS/MisaOffice'));
  idle();const profile=path.join(root,'profiles','owned-'+Date.now());await fs.mkdir(profile,{recursive:true});await fs.mkdir(path.join(root,'results'),{recursive:true});
  const nodePort=await port(),browserPort=await port(),out=await fs.open(path.join(root,'results',path.basename(profile)+'.stdout.log'),'w'),err=await fs.open(path.join(root,'results',path.basename(profile)+'.stderr.log'),'w');
  const child=cp.spawn(exe,['--inspect=127.0.0.1:'+nodePort,'--remote-debugging-address=127.0.0.1','--remote-debugging-port='+browserPort,'--user-data-dir='+profile,...(file?[file]:[])],{cwd:root,detached:true,env:{...process.env,EO_DESKTOP_PROFILE:profile},stdio:['ignore',out.fd,err.fd]});

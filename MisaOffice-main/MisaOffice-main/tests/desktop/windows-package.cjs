@@ -8,7 +8,7 @@ const asar=require(path.join(root,'desktop/node_modules/@electron/asar'));
 const config=require(path.join(root,'desktop/package.json'));
 const dist=path.resolve(process.argv[2]||path.join(root,'desktop/dist')),payload=path.resolve(process.argv[3]||'');
 assert(process.argv[3],'Pass the extracted installer payload directory');
-const installer=path.join(dist,'ElixirOffice-'+config.version+'-win-x64.exe');
+const installer=path.join(dist,'MisaOffice-'+config.version+'-win-x64.exe');
 const sha=buffer=>crypto.createHash('sha256').update(buffer).digest('hex');
 const identity=require(path.join(root,'desktop/build-info.json'));
 const versionCheck=require(path.join(root,'tools/desktop/check-windows-version.cjs'));
@@ -25,15 +25,15 @@ function executable(filename,machine,installer=false) {
  const versions=R.Resource.VersionInfo.fromEntries(entries);
  assert(versions.length,'Missing product version resource');
  const strings=versions.flatMap(v=>v.getAllLanguagesForStringValues().map(lang=>v.getStringValues(lang)));
- assert(strings.some(v=>v.ProductName==='ElixirOffice'),'Wrong product name');
+ assert(strings.some(v=>v.ProductName==='MisaOffice'),'Wrong product name');
  versionCheck.verify(versions,identity,installer);
  assert(R.Resource.IconGroupEntry.fromEntries(entries).length,'Missing icon resource');
  console.log('PASS unsigned PE/product/version/icon',path.basename(filename),machine.toString(16));
  return entries;
 }
 const unpacked=path.join(dist,'win-unpacked');
-const entries=executable(path.join(unpacked,'ElixirOffice.exe'),0x8664);
-executable(path.join(path.dirname(payload),'installer','$R0','Uninstall ElixirOffice.exe'),0x14c,true);
+const entries=executable(path.join(unpacked,'MisaOffice.exe'),0x8664);
+executable(path.join(path.dirname(payload),'installer','$R0','Uninstall MisaOffice.exe'),0x14c,true);
 executable(installer,0x14c,true); // NSIS uses an x86 bootstrapper to install the x64 application.
 const iconFile=path.join(dist,'.icon-ico/icon.ico');
 assert(fs.existsSync(iconFile),'Missing converted application icon');

@@ -66,7 +66,7 @@ test('own runtime sources and production dependency lock contain no application 
  const desktop=path.resolve(__dirname,'../../desktop'),pkg=require(path.join(desktop,'package.json'));
  const lock=JSON.parse(fs.readFileSync(path.join(desktop,'package-lock.json'),'utf8'));assertNoUpdaterDependencies(pkg,lock);
  assert.equal(pkg.build.publish,null);
- assert.equal(pkg.build.appImage.artifactName,'ElixirOffice-${version}-x86_64.${ext}');
+ assert.equal(pkg.build.appImage.artifactName,'MisaOffice-${version}-x86_64.${ext}');
  assert(pkg.scripts.package.includes('--publish never'));
  for(const file of ownRuntimeSources(desktop))assertNoUpdater(fs.readFileSync(file,'utf8'));
  assert.throws(()=>assertNoUpdaterDependencies({dependencies:{}},{packages:{'node_modules/nested/node_modules/electron-updater':{}}}),/Transitive/);

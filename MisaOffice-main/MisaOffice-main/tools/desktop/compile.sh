@@ -19,7 +19,7 @@ PY
 mkdir -p "$OUTPUT"
 python3 "$UPSTREAM/sdkjs/common/wasm-convert/install-runtime.py" "$FULL_RUNTIME"
 python3 "$ROOT/tools/wasm/install-runtime.py" "$PDF_RELEASE" "$UPSTREAM/sdkjs"
-export PRODUCT_VERSION=9.3.4 BUILD_NUMBER=60 COMPANY_NAME=ElixirOffice
+export PRODUCT_VERSION=9.3.4 BUILD_NUMBER=60 COMPANY_NAME=MisaOffice
 (
  cd "$UPSTREAM/sdkjs/build"
  npm ci

@@ -48,7 +48,7 @@ test('Mac harness starts an absolute own executable with an isolated profile',as
   const context={require:name=>name==='node:child_process'?{spawn:(exe,args,options)=>{spawned={exe,args,options};return{pid:12345,exitCode:0,signalCode:null}}}:name==='playwright-stub'?{chromium:{}}:load(name),
    module:{exports:{}},__dirname:path.dirname(source),process:{platform:'darwin',env:{EO_DESKTOP_ROOT:root,EO_PLAYWRIGHT:'playwright-stub'},kill(){throw Error('Exited child must never be killed')}},setTimeout};
   vm.runInNewContext(fs.readFileSync(source,'utf8'),context,{filename:source});
-  await assert.rejects(context.module.exports.launch({executable:path.join(root,'Own.app/Contents/MacOS/ElixirOffice'),profile:'isolated',onSpawn(){throw sentinel}}),error=>error===sentinel);
+  await assert.rejects(context.module.exports.launch({executable:path.join(root,'Own.app/Contents/MacOS/MisaOffice'),profile:'isolated',onSpawn(){throw sentinel}}),error=>error===sentinel);
   assert(path.isAbsolute(spawned.exe));assert.equal(spawned.options.env.EO_DESKTOP_PROFILE,path.join(root,'profiles/isolated'));
   assert(spawned.args.includes('--user-data-dir='+path.join(root,'profiles/isolated')));
  }finally{await promises.rm(root,{recursive:true,force:true})}

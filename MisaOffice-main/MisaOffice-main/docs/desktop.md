@@ -29,7 +29,7 @@ The start renderer has a strict self-only script policy, context isolation, a sa
 
 ## Linux packages
 
-Build outputs are `desktop/dist/ElixirOffice-<version>-linux-x86_64.AppImage` and `desktop/dist/ElixirOffice-<version>-linux-amd64.deb`.
+Build outputs are `desktop/dist/MisaOffice-<version>-x86_64.AppImage` and `desktop/dist/MisaOffice-<version>-linux-amd64.deb`.
 
 Arch Linux (community package, not maintained by the ElixirOffice project): install with `yay -S elixiroffice-bin` or `paru -S elixiroffice-bin`. It repackages our released .deb; see the [AUR package page](https://aur.archlinux.org/packages/elixiroffice-bin). Report packaging problems on that page and application issues [here](https://github.com/leag1234/elixiroffice/issues).
 
@@ -41,7 +41,7 @@ The Debian package installs under `/opt/ElixirOffice`, adds an Office desktop la
 
 ## Windows installer preview
 
-The cross-built output is `desktop/dist/ElixirOffice-0.1.0-win-x64.exe`. It contains a Windows x64 application; the NSIS installer bootstrapper is x86. The configured interactive installer offers a destination choice and nine Office file associations, and includes an uninstaller. Actual Windows registration, install/uninstall and native workflows have not been tested on a Windows PC or VM.
+The cross-built output is `desktop/dist/MisaOffice-<version>-win-x64.exe`. It contains a Windows x64 application; the NSIS installer bootstrapper is x86. The configured interactive installer offers a destination choice and supported Office file associations, and includes an uninstaller. Actual Windows registration, install/uninstall and native workflows have not been tested on a Windows PC or VM.
 
 The preview is unsigned: no Authenticode certificate is embedded in the application or installer. Expect the operating system's unsigned-publisher/SmartScreen handling; signing is a later owner action. The installed app uses the same standard fonts, local conversion, resource/network policy and reduced multilingual help as the accepted Linux preview. The shared ODS/PDF issue and measured Linux startup limits remain disclosed; no Windows startup measurement is claimed.
 
@@ -55,7 +55,7 @@ The final artifact check passed both17896resource hashes and all17970payload fil
 
 ## macOS arm64 preview
 
-The owner-Mac build produces `desktop/dist/ElixirOffice-0.1.0-mac-arm64.dmg`. It uses the same manifest-verified standard fonts, reduced multilingual help, editors and WebAssembly releases as Linux and Windows. It targets Apple Silicon only; Intel and universal builds are unverified. Universal packaging is deferred because a second architecture would require another runtime download, package and native acceptance.
+The owner-Mac build produces `desktop/dist/MisaOffice-<version>-mac-arm64.dmg`. It uses the same manifest-verified standard fonts, reduced multilingual help, editors and WebAssembly releases as Linux and Windows. It targets Apple Silicon only; Intel and universal builds are unverified. Universal packaging is deferred because a second architecture would require another runtime download, package and native acceptance.
 
 Use one isolated folder containing the bounded source export and verified assets. Select portable Node22.23.3 in PATH; the official darwin-arm64 archive SHA256 is `23b25245dcfb9af7262f8ff142e9e2e0af025368117329e7a7458a51e5922f53`. Set `MAC_BUILD_CACHE` to an isolated cache and run `/bin/bash tools/desktop/mac.sh`. The script verifies resource hashes and Node version, normalizes the cache path, installs the pinned lockfile, runs units and builds using an isolated HOME/TMPDIR. Signing identity discovery and notarization are disabled for this preview. Hardened runtime and the two explicit V8/Wasm entitlements are prepared for a later Developer ID signature; an unsigned preview has no publisher-signed hardened runtime. No signing credentials are forwarded and no system installation is performed.
 
@@ -209,13 +209,13 @@ A hidden, explicit review option captures only ElixirOffice's own webContents. I
 Linux:
 
 ```sh
-./ElixirOffice-0.1.0-linux-x86_64.AppImage --capture-screens "$HOME/ElixirOffice-review" --locales en,fr
+./MisaOffice-0.1.0-linux-x86_64.AppImage --capture-screens "$HOME/MisaOffice-review" --locales en,fr
 ```
 
 If FUSE is unavailable, use the extracted AppImage executable with the same arguments. On macOS:
 
 ```sh
-/Applications/ElixirOffice.app/Contents/MacOS/ElixirOffice --capture-screens "$HOME/ElixirOffice-review" --locales en,fr
+/Applications/MisaOffice.app/Contents/MacOS/MisaOffice --capture-screens "$HOME/MisaOffice-review" --locales en,fr
 ```
 
 On Windows, install the review installer with its Start Menu shortcut enabled. This single PowerShell command resolves that shortcut, so it also works with a custom installation directory:

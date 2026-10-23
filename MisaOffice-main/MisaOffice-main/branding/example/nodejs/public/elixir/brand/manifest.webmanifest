@@ -1,7 +1,7 @@
 {
   "id": "../../../",
-  "name": "ElixirOffice",
-  "short_name": "ElixirOffice",
+  "name": "MisaOffice",
+  "short_name": "MisaOffice",
   "description": "Word processor, spreadsheets and presentations in the browser. Installed, the window has no tabs and receives Office keys such as Ctrl+Tab and Ctrl+PageDown.",
   "start_url": "../../../",
   "scope": "../../../",

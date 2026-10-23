@@ -33,7 +33,7 @@ test('About is accessible on all platforms and existing translated label is used
  for(const platform of ['linux','win32','darwin']){
   const actions=[],walk=rows=>rows.flatMap(row=>[row,...(row.submenu?walk(row.submenu):[])]);
   const menu=walk(template(platform,name=>()=>actions.push(name),()=>{},key=>key==='about'?'Localized About':key));
-  const about=menu.find(row=>row.label==='Localized About ElixirOffice');assert(about);
+  const about=menu.find(row=>row.label==='Localized About MisaOffice');assert(about);
   if(platform==='darwin')assert.equal(about.role,'about');else{about.click();assert.deepEqual(actions,['about'])}
  }
 });

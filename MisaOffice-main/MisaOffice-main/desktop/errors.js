@@ -3,11 +3,11 @@
  'use strict';
  const fallback={printFailed:"Printing failed. Try again or export PDF.",printTimedOut:"Printing timed out. Try again or export PDF.",printHelperError:"The print helper failed. Try again or export PDF.",saveRestoreUncertain:'The save failed and restoring the original file could not be confirmed. Keep the backup in the same folder and use Save As for your edits.',opFileMissing:'This file is no longer available. It may have been moved or deleted.',savePermission:'Permission denied. Your edits remain open. Use Save As with a new name.',saveBusy:'The file is open elsewhere or cannot be replaced. Your edits remain open. Use Save As with a new name.',saveSpace:'The disk is full. Free space or choose another disk.',savePath:'The destination is unavailable or its path is too long. Choose another folder or filename.',saveDifferent:'Choose a different destination for the PDF copy. The original was not changed.',saveInvalid:'The conversion did not produce a valid file. The original was not changed.'};
  const openFallback={
-  openPermission:'ElixirOffice cannot read this file. Check its permissions or open it with File → Open.',
-  openPermissionMac:'ElixirOffice is not allowed to read this file. Allow access in System Settings → Privacy & Security → Files and Folders, or open it with File → Open.',
+  openPermission:'MisaOffice cannot read this file. Check its permissions or open it with File → Open.',
+  openPermissionMac:'MisaOffice is not allowed to read this file. Allow access in System Settings → Privacy & Security → Files and Folders, or open it with File → Open.',
   openBusy:'The file is temporarily unavailable or in use by another application. Close the other application and try opening it again.',
   openMissing:'This file may have been moved or deleted. Choose it again with File → Open.',
-  openUnavailable:'The file could not be read. If it is stored in the cloud, make it available offline and check the connection. Check that security software allows ElixirOffice to read it.',
+  openUnavailable:'The file could not be read. If it is stored in the cloud, make it available offline and check the connection. Check that security software allows MisaOffice to read it.',
   openInvalid:'Choose a supported, regular document under 512 MiB, not a symbolic link. Text and CSV files must use UTF-8.',
   openPath:'The file path is too long. Move the document to a shorter folder path and open it again.'
  };

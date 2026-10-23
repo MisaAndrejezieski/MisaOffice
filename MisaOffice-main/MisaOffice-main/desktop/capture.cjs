@@ -50,7 +50,7 @@ async function run(win,options){
    receipts.push({language,view,file:filename,size:image.getSize(),validation,capture});
   }
  }
- await fs.writeFile(path.join(options.folder,'captures.json'),JSON.stringify({platform:process.platform,app:'ElixirOffice',screens:receipts},null,2)+'\n',{flag:'wx'});
+ await fs.writeFile(path.join(options.folder,'captures.json'),JSON.stringify({platform:process.platform,app:'MisaOffice',screens:receipts},null,2)+'\n',{flag:'wx'});
  console.log('CAPTURES',options.folder,receipts.length);
 }
 module.exports={parse,run};

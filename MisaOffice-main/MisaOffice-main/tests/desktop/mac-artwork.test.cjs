@@ -21,5 +21,5 @@ test('DMG layout provides real application and Applications targets with unobstr
  assert(destination.x-app.x>=dmg.iconSize*2);
  const svg=fs.readFileSync(path.join(root,'tools/desktop/artwork/dmg-background.svg'),'utf8');
  assert(!/<(?:script|image|foreignObject)\b|\b(?:href|url\(\s*https?:)/i.test(svg),'Artwork must be self-contained');
- assert.deepEqual([...svg.matchAll(/<text[^>]*>([^<]+)<\/text>/g)].map(m=>m[1]),['ElixirOffice'],'No baked-in untranslated instructions or Finder labels');
+ assert.deepEqual([...svg.matchAll(/<text[^>]*>([^<]+)<\/text>/g)].map(m=>m[1]),['MisaOffice'],'No baked-in untranslated instructions or Finder labels');
 });

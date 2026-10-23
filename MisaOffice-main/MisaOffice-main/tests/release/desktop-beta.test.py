@@ -137,7 +137,7 @@ class ReleaseInputs(unittest.TestCase):
         with self.assertRaises(ValueError):release.render_release_notes("{{UNKNOWN}}",identity)
 
     def test_candidate_appimage_names_keep_existing_convention(self):
-        self.assertEqual(release.appimage_names("0.2.1-rc.42"),("ElixirOffice-0.2.1-rc.42-x86_64.AppImage","ElixirOffice-0.2.1-rc.42-x86_64.AppImage.zsync"))
+        self.assertEqual(release.appimage_names("0.2.1-rc.42"),("MisaOffice-0.2.1-rc.42-x86_64.AppImage","MisaOffice-0.2.1-rc.42-x86_64.AppImage.zsync"))
         with self.assertRaises(ValueError):release.appimage_names("0.2.1-rc.0")
         with self.assertRaises(ValueError):release.appimage_names("../0.2.1")
 
@@ -328,12 +328,12 @@ class ReleaseInputs(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             image, control = release.appimage_names("0.2.0")
-            self.assertEqual(image, "ElixirOffice-0.2.0-x86_64.AppImage")
+            self.assertEqual(image, "MisaOffice-0.2.0-x86_64.AppImage")
             (root / image).write_bytes(b"public fixture")
             with self.assertRaisesRegex(ValueError, "Missing"):
                 release.public_artifact_names(root)
             (root / control).write_bytes(b"public control fixture")
-            (root / "ElixirOffice-0.2.0-linux-amd64.deb").write_bytes(b"unchanged deb")
+            (root / "MisaOffice-0.2.0-linux-amd64.deb").write_bytes(b"unchanged deb")
             (root / "builder-effective-config.yaml").write_text("internal build-only receipt")
             names = release.public_artifact_names(root)
             self.assertIn(image, names)
@@ -347,7 +347,7 @@ class ReleaseInputs(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, "updater feed"):
                     release.public_artifact_names(root)
                 (root / feed).unlink()
-            alias = root / "ElixirOffice-0.2.0-win-x64.exe"
+            alias = root / "MisaOffice-0.2.0-win-x64.exe"
             alias.symlink_to(root / image)
             with self.assertRaisesRegex(ValueError, "regular"):
                 release.public_artifact_names(root)
@@ -363,7 +363,7 @@ class ReleaseInputs(unittest.TestCase):
     def test_appimage_update_config_cannot_infer_an_application_feed(self):
         package = json.loads((source.parents[1] / "../desktop/package.json").resolve().read_text())
         release.validate_update_packaging(package)
-        self.assertEqual(package["build"]["artifactName"], "ElixirOffice-${version}-${os}-${arch}.${ext}")
+        self.assertEqual(package["build"]["artifactName"], "MisaOffice-${version}-${os}-${arch}.${ext}")
         package["build"]["linux"]["publish"] = {"provider": "github"}
         with self.assertRaisesRegex(ValueError, "feeds"):
             release.validate_update_packaging(package)

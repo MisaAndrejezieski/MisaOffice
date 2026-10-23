@@ -1,21 +1,16 @@
-# ElixirOffice
+# MisaOffice
 
-**An open source office suite for people used to Microsoft Office.**
+**An open-source office suite for small offices and teams.**
 
-ElixirOffice edits Word, Excel and PowerPoint documents (and their OpenDocument equivalents) with the ribbon, menus, dialogs and keyboard shortcuts of Microsoft Office. It runs as a desktop app that works entirely offline, or in the browser on your own server. It is free software (AGPLv3), private by design, and fast.
+MisaOffice is a rebrand and continuation of the ElixirOffice source tree, itself based on Euro-Office and ONLYOFFICE. It edits Word, Excel and PowerPoint documents and their OpenDocument equivalents, runs locally or on a self-hosted server, and retains the upstream projects' required copyright, licence and attribution notices.
 
-> Status: **beta**. Expect rough edges, and please [report them](../../issues). Known limitations are listed in the release notes.
+> Status: **beta / in development**. This checkout has not published MisaOffice installers or server images. The historical ElixirOffice releases listed below are not MisaOffice builds; do not treat them as MisaOffice downloads.
 
-## Get ElixirOffice
+## MisaOffice downloads
 
-| Version | For whom | Why choose it | Get it |
-|---|---|---|---|
-| **Desktop app** 0.3.1 | Anyone, on their own computer | 100 % local and offline: no server, no account, documents never leave your computer | [Windows](https://github.com/leag1234/elixiroffice/releases/download/v0.3.1/ElixirOffice-0.3.1-win-x64.exe)<br>[macOS (Apple Silicon)](https://github.com/leag1234/elixiroffice/releases/download/v0.3.1/ElixirOffice-0.3.1-mac-arm64.dmg)<br>[Linux AppImage](https://github.com/leag1234/elixiroffice/releases/download/v0.3.1/ElixirOffice-0.3.1-x86_64.AppImage)<br>[Debian/Ubuntu .deb](https://github.com/leag1234/elixiroffice/releases/download/v0.3.1/ElixirOffice-0.3.1-linux-amd64.deb) |
-| **Server version** 0.1.1 (beta 1.1) | Teams, schools, organisations, self-hosters | Editing in the browser, real-time co-editing, Murena Workspace and Nextcloud accounts | [Install guide and files](https://github.com/leag1234/elixiroffice/releases/tag/v0.1.1) · Docker image `ghcr.io/leag1234/elixiroffice-server:beta1.1` |
+MisaOffice release packages are not available yet. Build and qualify this source tree using [the desktop guide](docs/desktop.md) or [the development guide](docs/dev.md). Release history and links below identify the source project's previous releases only.
 
-Release notes, checksums and source archives: [desktop 0.3.1](https://github.com/leag1234/elixiroffice/releases/tag/v0.3.1), [server 0.1.1](https://github.com/leag1234/elixiroffice/releases/tag/v0.1.1). Older versions: [desktop 0.3.0](https://github.com/leag1234/elixiroffice/releases/tag/v0.3.0), [desktop 0.2.4](https://github.com/leag1234/elixiroffice/releases/tag/v0.2.4), [desktop 0.2.3](https://github.com/leag1234/elixiroffice/releases/tag/v0.2.3), [desktop 0.2.2](https://github.com/leag1234/elixiroffice/releases/tag/v0.2.2), [desktop 0.2.1](https://github.com/leag1234/elixiroffice/releases/tag/v0.2.1), [desktop 0.2.0](https://github.com/leag1234/elixiroffice/releases/tag/v0.2.0), [desktop beta 2](https://github.com/leag1234/elixiroffice/releases/tag/v0.1.0-beta.2), [server beta 1](https://github.com/leag1234/elixiroffice/releases/tag/v0.1.0-beta.1). The installers are not signed yet: see the first-launch tips in [Try it](#try-it).
-
-## Release history
+## Source-project release history (not MisaOffice releases)
 
 | Version | Date | What it is |
 |---|---|---|
@@ -34,9 +29,7 @@ Details of every change: [CHANGELOG.md](CHANGELOG.md).
 
 ## Why this project
 
-My partner is a teacher. Like many of her colleagues, she has been offered the open source office suites at school again and again, and every time she went back to Microsoft Office. Not out of brand loyalty: the alternatives felt unfamiliar, documents from colleagues did not look right, and the habits of years (the ribbon, the shortcuts, where things are) did not work anymore.
-
-They would love an office suite that is open source **and** easy to use. ElixirOffice is an attempt at exactly that: keep the strong, mature engine of an existing open source suite, and rebuild everything people touch so that a Word, Excel or PowerPoint user feels at home on the first day, with documents that look the same as in Microsoft Office.
+Small offices need tools that are familiar, work with documents received from clients, and do not require a cloud subscription. MisaOffice continues that goal by building on the mature editor engine, compatibility work and user-interface improvements already present in its source project.
 
 ## What makes it different
 
@@ -57,10 +50,10 @@ They would love an office suite that is open source **and** easy to use. ElixirO
 - **AutoCorrect while typing** and **spelling suggestions on right-click**, in many languages; an offline **thesaurus** (Shift+F7).
 - **Pictures that stay where you put them**, and tables that behave (grouped shapes stay in their cell, copied cells keep rotated text and colours).
 - **Excel and PowerPoint habits**: Flash Fill (Ctrl+E), Quick Analysis (Ctrl+Q), Auto Fill Options, chart galleries by type, F4 for Repeat and absolute references; Slide Sorter, sections, Selection pane and Presenter View with the next slide.
-- **Office keys the browser normally keeps** (Ctrl+W, Ctrl+N, Ctrl+Tab...): install ElixirOffice as an app or use full screen, or use the documented alternatives.
+- **Office keys the browser normally keeps** (Ctrl+W, Ctrl+N, Ctrl+Tab...): install MisaOffice as an app or use full screen, or use the documented alternatives.
 - **AI with your own model**: ask from the search box, a right-click or "/" in the text; any OpenAI-compatible service, including a model running on your own computer.
 
-The complete list: [docs/features.md](docs/features.md).
+The feature list above describes capabilities in the inherited source tree; MisaOffice packages still need to be built and qualified.
 
 ## Fast, thanks to an optimised WebAssembly converter
 
@@ -95,50 +88,40 @@ In your language (here French, German and Japanese):
 | For | organisations, Murena Workspace / Nextcloud, shared documents | individuals, offline use |
 | How | your own server (Docker), in the browser | Windows, macOS (Apple Silicon), Linux |
 | Documents | real-time co-editing, cloud storage; optional "convert locally" mode | 100 % local, no document server |
-| Available | 0.1.1 beta 1.1 | 0.3.1 |
+| Source baseline | 0.1.1 beta 1.1 (upstream) | 0.3.1 (upstream) |
 | Install | [docs/install-server.md](docs/install-server.md) | [docs/desktop.md](docs/desktop.md) |
 
-## Try it
+## Build and try from source
 
-**Desktop app (offline, nothing to install on a server)**
-
-- **Windows**: download the [installer](https://github.com/leag1234/elixiroffice/releases/download/v0.3.1/ElixirOffice-0.3.1-win-x64.exe) and run it. It is not signed yet, so Windows SmartScreen shows a warning: click **More info**, then **Run anyway**.
-- **macOS** (Apple Silicon): download the [disk image](https://github.com/leag1234/elixiroffice/releases/download/v0.3.1/ElixirOffice-0.3.1-mac-arm64.dmg), open it and drag ElixirOffice to Applications. It is not notarized yet: if macOS blocks it, open **System Settings > Privacy & Security** and click **Open Anyway**.
-- **Linux**: download the [AppImage](https://github.com/leag1234/elixiroffice/releases/download/v0.3.1/ElixirOffice-0.3.1-x86_64.AppImage), make it executable (`chmod +x ElixirOffice-*.AppImage`) and run it; or install the [.deb](https://github.com/leag1234/elixiroffice/releases/download/v0.3.1/ElixirOffice-0.3.1-linux-amd64.deb) with `sudo apt install ./ElixirOffice-*.deb`.
-
-Then create a document or open a .docx, .xlsx, .pptx, .odt, .ods or .odp file, edit it and save: the file stays on your computer.
-
-**Server version (in the browser, for a team or an organisation)**
-
-On a Linux host with Docker and a public DNS name, download the deployment bundle from the [server release](https://github.com/leag1234/elixiroffice/releases/tag/v0.1.1) and follow its install guide: an init script generates the secrets, `docker compose up -d` downloads the image from `ghcr.io/leag1234/elixiroffice-server` and starts the suite behind HTTPS. The start page (local files, Murena Workspace and Nextcloud accounts) is off by default and has no user accounts of its own: enable it on a trusted network, behind a VPN or behind your own authentication. AI is off unless you configure it.
+MisaOffice installers and server images have not been released. To work from this checkout, follow the [desktop build guide](docs/desktop.md), [server installation guide](docs/install-server.md) and [development guide](docs/dev.md). Historical ElixirOffice release downloads and images are built and published by the upstream project and are not MisaOffice distributions.
 
 ## Features
 
-The detailed, benefit-oriented list of what has been built (Word, Excel and PowerPoint parity, fidelity, privacy, AI) is kept up to date in [docs/features.md](docs/features.md). A comparison with LibreOffice and ONLYOFFICE is in [docs/differences.md](docs/differences.md).
+The feature summary above describes the inherited Word, Excel and PowerPoint editing capabilities. A comparison with LibreOffice and ONLYOFFICE is in [docs/differences.md](docs/differences.md).
 
 ## Building from source
 
-- Server image and development environment: [docs/dev.md](docs/dev.md), [docs/images.md](docs/images.md)
+- Server image and development environment: [docs/install-server.md](docs/install-server.md), [docs/dev.md](docs/dev.md)
 - WebAssembly converter: [docs/wasm.md](docs/wasm.md) (`tools/wasm/build.sh`)
 - Desktop app: [docs/desktop.md](docs/desktop.md)
 
 ## Licence and attribution
 
-ElixirOffice is free software, released under the **GNU Affero General Public License v3.0** ([LICENSE](LICENSE)), the same licence as the projects it derives from.
+MisaOffice source is released under the **GNU Affero General Public License v3.0** ([LICENSE](LICENSE)), and preserves the upstream projects' copyright and attribution notices.
 
 It is built on **[Euro-Office](https://github.com/Euro-Office)**, itself derived from **[ONLYOFFICE](https://www.onlyoffice.com/)** Docs by Ascensio System SIA. Their copyright notices, licence files and attributions are kept in the source code; see [NOTICE](NOTICE). Bundled fonts, dictionaries, thesauri and icons (Microsoft Fluent UI System Icons, MIT) keep their own free licences: [branding/fonts/LICENSES.md](branding/fonts/LICENSES.md), the dictionaries and thesaurus licence files, and [NOTICE](NOTICE).
 
-ElixirOffice is not affiliated with or endorsed by Microsoft, Ascensio System SIA or the Euro-Office project. Microsoft, Word, Excel and PowerPoint are trademarks of Microsoft Corporation.
+MisaOffice is not affiliated with or endorsed by Microsoft, Ascensio System SIA, Euro-Office or the ElixirOffice project. Microsoft, Word, Excel and PowerPoint are trademarks of Microsoft Corporation.
 
 ## Contributing, bug reports and feedback
 
 Feedback from real users, especially anyone who switched from Microsoft Office, is the most valuable contribution.
 
 - **Report a bug**: open an [issue](../../issues) with the version (Help > About, or the release name), your system and browser, what you did, what you expected and what happened. A screenshot helps. If a document triggers the problem, attach a small example **only if it contains nothing private**; otherwise describe it, or recreate the problem in a new document.
-- **"It does not work like in Word / Excel / PowerPoint"**: these reports are welcome as issues too. Tell us what Microsoft Office does (the menu, the shortcut, the result) and what ElixirOffice does instead.
+- **"It does not work like in Word / Excel / PowerPoint"**: these reports are welcome as issues too. Tell us what Microsoft Office does (the menu, the shortcut, the result) and what MisaOffice does instead.
 - **Ideas and questions**: use [Discussions](../../discussions).
 - **Code**: pull requests are welcome; read [CONTRIBUTING.md](CONTRIBUTING.md) first (how to build, run the tests, commit conventions). Changes to the editor engine and interface live in the forked component repositories listed there.
 
 ## How it was made
 
-ElixirOffice was initiated and supervised by **Gaël Duval**, and developed with various large language models working as coding agents under his direction. Every change goes through automated test suites, reviews and measurements before it is integrated.
+The ElixirOffice source project was initiated and supervised by **Gaël Duval**, and developed with various large language models working as coding agents under his direction. MisaOffice preserves that history and attribution.

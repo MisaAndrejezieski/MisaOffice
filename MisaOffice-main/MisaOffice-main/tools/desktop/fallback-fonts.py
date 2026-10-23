@@ -88,7 +88,7 @@ def build(out, cache, offline=False):
                 names.removeNames(nameID=name_id)
             family = entry["family"]
             postscript = family.replace(" ", "") + "-" + style
-            for name_id, value in [(1, family), (2, style), (3, postscript + ";ElixirOffice"),
+            for name_id, value in [(1, family), (2, style), (3, postscript + ";MisaOffice"),
                                    (4, family + " " + style), (6, postscript),
                                    (16, family), (17, style)]:
                 names.setName(value, name_id, 3, 1, 0x409)

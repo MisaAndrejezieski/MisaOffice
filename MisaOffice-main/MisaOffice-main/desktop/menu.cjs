@@ -15,9 +15,9 @@ function template(platform,action,help,t=key=>({file:'File',blankDoc:'New docume
  // Empty (not null) overrides Electron's default role accelerators.
  // The editor owns undo/redo keyboard handling on every desktop platform.
  const edit={label:t('edit'),submenu:[{role:'undo',accelerator:''},{role:'redo',accelerator:''},{type:'separator'},{role:'cut'},{role:'copy'},{role:'paste'},{role:'selectAll'}]};
- if(platform!=='darwin'){file.submenu.push({type:'separator'},{role:'quit',accelerator:''});return [file,edit,{role:'help',label:t('help'),submenu:[{label:'ElixirOffice '+t('help'),accelerator:'F1',click:help},{label:t('about')+' ElixirOffice',click:action('about')}]}]}
- return [{label:'ElixirOffice',submenu:[
-  {role:'about',label:t('about')+' ElixirOffice'},{type:'separator'},
+ if(platform!=='darwin'){file.submenu.push({type:'separator'},{role:'quit',accelerator:''});return [file,edit,{role:'help',label:t('help'),submenu:[{label:'MisaOffice '+t('help'),accelerator:'F1',click:help},{label:t('about')+' MisaOffice',click:action('about')}]}]}
+ return [{label:'MisaOffice',submenu:[
+  {role:'about',label:t('about')+' MisaOffice'},{type:'separator'},
   {label:t('settings')+'…',accelerator:'Command+,',click:action('settings')},
   {type:'separator'},{role:'services'},{type:'separator'},
   {role:'hide'},{role:'hideOthers'},{role:'unhide'},
@@ -25,6 +25,6 @@ function template(platform,action,help,t=key=>({file:'File',blankDoc:'New docume
  ]},file,edit,{role:'windowMenu',label:t('window'),submenu:[
   {role:'minimize',accelerator:'Command+M'},{role:'zoom'},
   {role:'close',accelerator:''}
- ]},{role:'help',label:t('help'),submenu:[{label:'ElixirOffice '+t('help'),accelerator:'F1',click:help}]}];
+ ]},{role:'help',label:t('help'),submenu:[{label:'MisaOffice '+t('help'),accelerator:'F1',click:help}]}];
 }
 module.exports={template};

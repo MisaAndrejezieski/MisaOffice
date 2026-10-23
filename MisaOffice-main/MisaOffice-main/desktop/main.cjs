@@ -7,7 +7,7 @@ const saveAs=require('./save-as.cjs');
 const files = require('./files.cjs'), resources = require('./resources.cjs'), {Fonts} = require('./fonts.cjs');
 // Keep the existing profile location while correcting the native app identity.
 const defaultProfile=app.getPath('userData');
-app.setName?.('ElixirOffice');app.setPath('userData',defaultProfile);
+app.setName?.('MisaOffice');app.setPath('userData',defaultProfile);
 if (process.env.EO_DESKTOP_PROFILE) app.setPath('userData',path.resolve(process.env.EO_DESKTOP_PROFILE));
 app.commandLine.appendSwitch('disable-background-networking');
 app.commandLine.appendSwitch('disable-component-update');
@@ -24,7 +24,7 @@ const pendingPaths=[];let pendingLimitNotice=false;
 registry.on('changed',windowId=>{
  const owner=registry.window(windowId);if(owner.window.isDestroyed())return;
  const document=registry.active(windowId),current=document?.state.current;
- owner.window.setTitle((document?.dirty?'* ':'')+(current?.name?current.name+' — ':'')+'ElixirOffice');
+ owner.window.setTitle((document?.dirty?'* ':'')+(current?.name?current.name+' — ':'')+'MisaOffice');
 });
 const fonts = new Fonts({report:error=>{void safety.log('font-error');void safety.log(error?.code)}});
 const captureConsoleError=console.error.bind(console);
@@ -59,7 +59,7 @@ function restoreGeometry(ordinal){
 const locale=require('./locale.cjs'),capture=require('./capture.cjs'),decisions=require('./decisions.cjs');
 let captureOptions,captureStartupError;
 let languageInfo;
-const fatalFallback={fatalMessage:'ElixirOffice encountered an unexpected problem and needs to close.',fatalDetail:'Changes not yet saved may be lost. Open the app again to continue.',close:'Close'};
+const fatalFallback={fatalMessage:'MisaOffice encountered an unexpected problem and needs to close.',fatalDetail:'Changes not yet saved may be lost. Open the app again to continue.',close:'Close'};
 const tabEnglish=require('./tab-strings.json');
 function localizedStrings(){
  const strings={...languageInfo?.strings};
@@ -84,14 +84,14 @@ const printer=require('./printing.cjs').create({BrowserWindow,session,root:path.
 const {documentPath}=require('./document-path.cjs');
 const argument=argv=>argv.map(documentPath).find(Boolean);
 const initial = captureOptions||captureStartupError?null:argument(process.argv.slice(app.isPackaged?1:2)); if(initial)pendingPaths.push(initial);
-if(captureStartupError){try{captureConsoleError('ElixirOffice capture startup failed:\n'+captureStartupError.stack);}catch{void safety.log('console-error');}app.exit(1);}
+if(captureStartupError){try{captureConsoleError('MisaOffice capture startup failed:\n'+captureStartupError.stack);}catch{void safety.log('console-error');}app.exit(1);}
 else if(!app.requestSingleInstanceLock()){if(captureOptions)cleanupCapture().catch(()=>safety.log('capture-cleanup-failure')).then(()=>app.exit(1)).catch(()=>{void safety.log('capture-cleanup-failure');app.exit(1)});else app.quit();}
 else {
 app.on('second-instance',(_event,argv)=>{if(captureOptions)return;const file=argument(argv.slice(1));if(file)enqueueFile(file);win?.show();win?.focus();});
 app.on('open-file',(event,file)=>{event.preventDefault();if(captureOptions)return;const selected=documentPath(file);if(selected)enqueueFile(selected);});
 app.whenReady().then(start).catch(async error=>{
  if(captureOptions){console.error(error.message);appClosing=true;if(win&&!win.isDestroyed())win.destroy();try{await cleanupCapture()}catch{await safety.log('capture-cleanup-failure')}finally{app.exit(1)}}
- else {dialog.showErrorBox('ElixirOffice',t('error'));app.quit();}
+ else {dialog.showErrorBox('MisaOffice',t('error'));app.quit();}
 }).catch(()=>{void safety.log('startup-failure');app.exit(1)});
 }
 async function cleanupCapture(){
@@ -396,7 +396,7 @@ function waitForCloseSave(document){
   // own busy/rollback protection, and a late save acknowledgement cannot close.
   settleClose(document,false);
   try{
-   void registry.run(document,()=>dialog.showMessageBox(documentWindow(),{type:'warning',title:'ElixirOffice',message:t('tabSaveWaitTimeout'),buttons:['OK'],defaultId:0,cancelId:0})).catch(()=>safety.log('close-save-timeout-dialog'));
+   void registry.run(document,()=>dialog.showMessageBox(documentWindow(),{type:'warning',title:'MisaOffice',message:t('tabSaveWaitTimeout'),buttons:['OK'],defaultId:0,cancelId:0})).catch(()=>safety.log('close-save-timeout-dialog'));
   }catch{void safety.log('close-save-timeout-dialog');}
  },CLOSE_SAVE_TIMEOUT);
  state.closeSaveTimer.unref?.();
@@ -507,7 +507,7 @@ function title(){
  const document=registry.context(),owner=registry.window(document.windowId);
  tabHost.bounds(owner);
  registry.update(document.id,{name:documentState().current?.name||'',dirty:documentState().dirty});
- if(owner.activeId===document.id)owner.window.setTitle((documentState().dirty?'* ':'')+(documentState().current?.name?documentState().current.name+' — ':'')+'ElixirOffice');
+ if(owner.activeId===document.id)owner.window.setTitle((documentState().dirty?'* ':'')+(documentState().current?.name?documentState().current.name+' — ':'')+'MisaOffice');
 }
 
 function finishClose(){
@@ -518,7 +518,7 @@ function finishClose(){
   for(const warning of files.writeWarnings()){
    const scope=JSON.parse(warning.key)[0];if(!token||scope!==token)continue;
    const error={rollbackUncertain:true,message:'SAVE_RESTORE_UNCERTAIN:'+JSON.stringify(warning.backupName)};
-   await dialog.showMessageBox(documentWindow(),{type:'warning',title:'ElixirOffice',message:require('./errors.js').message(error,languageInfo?.strings),buttons:[t('close')],normalizeAccessKeys:true,defaultId:0,cancelId:0});
+   await dialog.showMessageBox(documentWindow(),{type:'warning',title:'MisaOffice',message:require('./errors.js').message(error,languageInfo?.strings),buttons:[t('close')],normalizeAccessKeys:true,defaultId:0,cancelId:0});
    validate();files.acknowledgeWriteWarning(warning.key);
   }
   await files.cleanupBackups();validate();await saveDiagnostics.flush();validate();
@@ -687,8 +687,8 @@ async function start() {
   try{buildIdentity=require('./build-identity.cjs').validate(JSON.parse(await fs.readFile(path.join(__dirname,'build-info.json'),'utf8')));}
   catch(error){if(app.isPackaged||error.code!=='ENOENT')throw error;}
   const aboutText=buildIdentity?require('./build-identity.cjs').label(buildIdentity):'Development';
-  app.setAboutPanelOptions(buildIdentity?require('./build-identity.cjs').aboutOptions(buildIdentity):{applicationName:'ElixirOffice',applicationVersion:aboutText});
-  const showAbout=()=>process.platform==='darwin'?app.showAboutPanel():dialog.showMessageBox(documentWindow(),{type:'info',title:t('about')+' ElixirOffice',message:'ElixirOffice',detail:aboutText,buttons:['OK'],defaultId:0,cancelId:0});
+  app.setAboutPanelOptions(buildIdentity?require('./build-identity.cjs').aboutOptions(buildIdentity):{applicationName:'MisaOffice',applicationVersion:aboutText});
+  const showAbout=()=>process.platform==='darwin'?app.showAboutPanel():dialog.showMessageBox(documentWindow(),{type:'info',title:t('about')+' MisaOffice',message:'MisaOffice',detail:aboutText,buttons:['OK'],defaultId:0,cancelId:0});
 
   if(captureOptions&&captureOptions.locales.some(value=>!languageInfo.supported.includes(value)))throw Error('Unsupported capture locale');
 
@@ -739,7 +739,7 @@ async function start() {
     documentState().ready=true;if(documentState().initialSelection){const selected=documentState().initialSelection;documentState().initialSelection=null;return selected;}if(!documentState().pending.length)return null;
     const selected=await openFile(documentState().pending.shift());return {...selected,morePending:documentState().pending.length>0};
   }));
-  handle('author',()=>typeof settings.author==='string'&&settings.author.trim()?settings.author:'ElixirOffice');
+  handle('author',()=>typeof settings.author==='string'&&settings.author.trim()?settings.author:'MisaOffice');
   handle('author-save',async value=>{if(typeof value!=='string'||!value.trim()||value.length>200||/[\u0000-\u001f\u007f]/.test(value))throw Error('Invalid author name');settings.author=value.trim();await persist();return settings.author;});
   handle('help',()=>help());
   handle('about',()=>showAbout());
@@ -1002,7 +1002,7 @@ async function start() {
   handle('font-consent',()=>operation(async()=>{
     if(captureOptions)throw Error('Capture mode does not read computer fonts');
     if(settings.fontConsent===true)return true;
-    const result=await dialog.showMessageBox(documentWindow(),{type:'question',title:'ElixirOffice',message:t('fontAsk'),detail:t('fontDetail'),buttons:decisions.buttons([t('cancel'),t('allow')]),normalizeAccessKeys:true,defaultId:0,cancelId:0});
+    const result=await dialog.showMessageBox(documentWindow(),{type:'question',title:'MisaOffice',message:t('fontAsk'),detail:t('fontDetail'),buttons:decisions.buttons([t('cancel'),t('allow')]),normalizeAccessKeys:true,defaultId:0,cancelId:0});
     if(result.response!==1){settings.fontChoice='declined';await persist();return false;}
     settings.fontChoice='granted';settings.fontConsent=true;await persist();return true;
   }).catch(async error=>{await safety.log('font-consent-error');throw error}));
@@ -1057,7 +1057,7 @@ async function start() {
     let language=languageInfo.language;
     try{await fs.access(path.join(base,language,'index.htm'))}catch{language='en'}
     const prefix=resources.ORIGIN+'/example/local-assets/web-apps/apps/'+editor+'/main/resources/help/'+language+'/';
-    const helpWindow=new BrowserWindow({parent:documentWindow(),width:1000,height:800,title:'ElixirOffice '+t('help'),webPreferences:{session:ses,sandbox:true,contextIsolation:true,nodeIntegration:false}});
+    const helpWindow=new BrowserWindow({parent:documentWindow(),width:1000,height:800,title:'MisaOffice '+t('help'),webPreferences:{session:ses,sandbox:true,contextIsolation:true,nodeIntegration:false}});
     if(process.platform!=="darwin")helpWindow.setMenuBarVisibility(false);
     helpWindow.webContents.setWindowOpenHandler(()=>({action:'deny'}));
     helpWindow.webContents.on('will-navigate',(event,url)=>{if(!url.startsWith(prefix))event.preventDefault()});

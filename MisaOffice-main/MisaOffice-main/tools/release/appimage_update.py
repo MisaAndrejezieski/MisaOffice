@@ -28,7 +28,7 @@ def digest(path, algorithm="sha256"):
 def update_information(channel):
     if channel not in {"latest", "latest-all", "latest-pre"}:
         raise ValueError("Unsupported update channel")
-    return UPDATE_PREFIX + channel + "|ElixirOffice-*x86_64.AppImage.zsync"
+    return UPDATE_PREFIX + channel + "|MisaOffice-*x86_64.AppImage.zsync"
 
 
 def verify_zsync(image, control):
@@ -137,7 +137,7 @@ def prepare(cache, manifest):
 
 
 
-SANDBOX_WARNING = "ElixirOffice: unprivileged user namespaces are unavailable, starting without the Chromium sandbox; use the .deb or the Flatpak for the sandboxed variant"
+SANDBOX_WARNING = "MisaOffice: unprivileged user namespaces are unavailable, starting without the Chromium sandbox; use the .deb or the Flatpak for the sandboxed variant"
 FORBIDDEN_FLAGS = ("--no-sandbox", "--disable-setuid-sandbox", "--disable-gpu-sandbox", "--disable-seccomp-filter-sandbox")
 MIME_TYPES = ['application/msword', 'application/pdf', 'application/rtf', 'application/vnd.ms-excel', 'application/vnd.ms-excel.sheet.macroEnabled.12', 'application/vnd.ms-powerpoint', 'application/vnd.ms-word.document.macroEnabled.12', 'application/vnd.oasis.opendocument.presentation', 'application/vnd.oasis.opendocument.spreadsheet', 'application/vnd.oasis.opendocument.text', 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.presentationml.slideshow', 'application/vnd.openxmlformats-officedocument.presentationml.template', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.spreadsheetml.template', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.openxmlformats-officedocument.wordprocessingml.template', 'text/csv', 'text/plain']
 
@@ -167,7 +167,7 @@ def prepare_launcher(appdir):
     replacement = ('for arg in "${args[@]}" ; do\n'
                    '  case "$arg" in\n'
                    '    --no-sandbox|--no-sandbox=*|--disable-setuid-sandbox|--disable-setuid-sandbox=*|--disable-gpu-sandbox|--disable-gpu-sandbox=*|--disable-seccomp-filter-sandbox|--disable-seccomp-filter-sandbox=*)\n'
-                   '      echo "ElixirOffice: explicit sandbox bypass flags are not supported" >&2; trap - EXIT; exit 64 ;;\n'
+                   '      echo "MisaOffice: explicit sandbox bypass flags are not supported" >&2; trap - EXIT; exit 64 ;;\n'
                    '  esac\n'
                    'done\n'
                    'NO_SANDBOX=()\n'
@@ -235,7 +235,7 @@ def owned(path):
             raise ValueError("Existing builder directory is not owned")
     else:
         path.mkdir(parents=True)
-        marker.write_text("ElixirOffice AppImage packaging workspace\n")
+        marker.write_text("MisaOffice AppImage packaging workspace\n")
     return path
 
 
@@ -270,7 +270,7 @@ def main():
     subprocess.run(base + ["--network=bridge", image, *command, "--inside", "prepare"], check=True)
     if a.prepare_only:
         return
-    if not a.work or not a.appimage or not re.fullmatch(r"ElixirOffice-[0-9]+(?:\.[0-9]+){2}(?:-rc\.[1-9][0-9]*)?-x86_64\.AppImage", a.appimage.name):
+    if not a.work or not a.appimage or not re.fullmatch(r"MisaOffice-[0-9]+(?:\.[0-9]+){2}(?:-rc\.[1-9][0-9]*)?-x86_64\.AppImage", a.appimage.name):
         raise ValueError("Provide the final-named AppImage and work directory")
     work = owned(a.work)
     if (work / "input.AppImage").exists():

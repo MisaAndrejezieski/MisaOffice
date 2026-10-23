@@ -242,7 +242,7 @@ def localized(source, kind, locale, catalog=None):
                     value = direction_and_fonts(value, chosen)
                 elif entry.filename == 'docProps/core.xml':
                     for tag in ['dc:title', 'dc:subject', 'dc:creator', 'cp:keywords', 'dc:description', 'cp:lastModifiedBy']:
-                        value = re.sub(r'(<'+tag+r'\b[^>]*>).*?(</'+tag+r'>)', r'\1ElixirOffice CC0 example\2', value, flags=re.S)
+                        value = re.sub(r'(<'+tag+r'\b[^>]*>).*?(</'+tag+r'>)', r'\1MisaOffice CC0 example\2', value, flags=re.S)
                 data = value.encode('utf-8')
             # Stable ZIP metadata and bytes, independent of generation time.
             info = zipfile.ZipInfo(entry.filename, (2026, 3, 9, 0, 0, 0))

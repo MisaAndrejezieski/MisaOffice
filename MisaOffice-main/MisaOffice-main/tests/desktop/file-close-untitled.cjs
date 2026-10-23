@@ -37,7 +37,7 @@ async function exited(child,ms=5000){if(child.exitCode!==null||child.signalCode!
   await page.evaluate(()=>document.getElementById('owned-close-lock-probe').click());assert.equal(await page.evaluate(()=>closeLockClicks),1,'prepare-close must block renderer clicks');
   rows.push({stage:'prepare-close',rendererClickBlocked:true});
   const {modal,keys}=require(path.join(root,'tests/desktop/lifecycle.cjs'));
-  await modal({page,application:app.process(),errors,requests:[]},'ElixirOffice');keys({application:app.process()},'return');
+  await modal({page,application:app.process(),errors,requests:[]},'MisaOffice');keys({application:app.process()},'return');
   for(let n=0;n<100&&await app.evaluate(()=>untitledProbe.questionPending);n++)await page.waitForTimeout(50);assert.equal(await app.evaluate(()=>untitledProbe.questionResponse),0,'Actual native default action must be Save');
   await page.locator('.eo-format-dialog').waitFor({state:'visible',timeout:5000});
   await page.evaluate(()=>document.getElementById('owned-close-lock-probe').click());assert.equal(await page.evaluate(()=>closeLockClicks),2,'resume-close must unlock the shared dialog');

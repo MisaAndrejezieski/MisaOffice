@@ -55,7 +55,7 @@ async function bootWin(virtual,options={}){
  const helper=path.join(__dirname,'close-recovery.test.cjs'),scope={exports:{}};
  let source=fs.readFileSync(helper,'utf8');
  source=source.replace("setPath(){},getPath:()=>directory","setPath(name,value){this.paths=this.paths||{};this.paths[name]=value},getPath:name=>app.paths?.[name]||(app.nativeName?'"+'RENAMED_PROFILE'+"':directory)");
- source=source.replace("getVersion:()=>","setName(value){this.nativeName=value},getName(){return this.nativeName||'elixiroffice-desktop'},getVersion:()=>");
+ source=source.replace("getVersion:()=>","setName(value){this.nativeName=value},getName(){return this.nativeName||'MisaOffice'},getVersion:()=>");
  source=source.replace("return {directory,window,","return {evaluate:expression=>vm.runInNewContext(expression,context),directory,window,");
  source=source.replace(":load(name),module:",":override(name,load),module:");
  const override=(name,real)=>name==='node:fs/promises'?virtual.io:name==='node:path'?hybrid:Object.hasOwn(modules,name)?modules[name]:real(name);
@@ -167,10 +167,10 @@ test('Windows font containment treats case and extended prefixes as aliases with
   await assert.rejects(fonts.read('outside'),/outside approved/);
  }finally{await virtual.cleanup()}
 });
-test('native app/consent identity is ElixirOffice while the existing default profile is retained',async()=>{
+test('native app/consent identity is MisaOffice while the existing default profile is retained',async()=>{
  const virtual=await virtualWindows();let env;
  try{
-  env=await bootWin(virtual,{fontSettings:{fontChoice:'declined',fontConsent:false}});assert.equal(env.app.getName(),'ElixirOffice');assert.equal(env.app.getPath('userData'),env.directory);
-  env.responses.push(0);assert.equal(await env.invoke('font-consent'),false);assert.equal(env.dialogs.at(-1).title,'ElixirOffice');
+  env=await bootWin(virtual,{fontSettings:{fontChoice:'declined',fontConsent:false}});assert.equal(env.app.getName(),'MisaOffice');assert.equal(env.app.getPath('userData'),env.directory);
+  env.responses.push(0);assert.equal(await env.invoke('font-consent'),false);assert.equal(env.dialogs.at(-1).title,'MisaOffice');
  }finally{if(env)await env.cleanup();await virtual.cleanup()}
 });

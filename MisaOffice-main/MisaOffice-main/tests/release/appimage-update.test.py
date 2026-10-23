@@ -15,7 +15,7 @@ spec.loader.exec_module(update)
 
 class ExternalUpdate(unittest.TestCase):
     def test_channels_are_explicit_and_cannot_inject_a_transport(self):
-        self.assertEqual(update.update_information("latest-all"), "gh-releases-zsync|leag1234|elixiroffice|latest-all|ElixirOffice-*x86_64.AppImage.zsync")
+        self.assertEqual(update.update_information("latest-all"), "gh-releases-zsync|leag1234|elixiroffice|latest-all|MisaOffice-*x86_64.AppImage.zsync")
         with self.assertRaises(ValueError):
             update.update_information("latest|other")
 

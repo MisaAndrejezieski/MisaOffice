@@ -1,4 +1,4 @@
-# ElixirOffice {{VERSION}} (desktop)
+# MisaOffice {{VERSION}} (desktop)
 
 Build {{BUILD_NUMBER}}, application source {{PRODUCT_REVISION}}. {{RELEASE_STATUS}} Exact platform versions, runtime pins, resources, artifact hashes and acceptance limits are recorded in BUILD-INFO.json.
 

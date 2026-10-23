@@ -5,7 +5,7 @@ const steps=new Set(['parent-check','target-stat','target-fingerprint','temporar
 const codes=new Set(['EPERM','EACCES','EBUSY','EIO','ENOSPC','ENOENT','EEXIST','EROFS','ENAMETOOLONG','EMFILE','ENFILE','ENOTSUP','UNKNOWN','cancelled']);
 const version=value=>typeof value==='string'&&/^[0-9][0-9a-zA-Z.+-]{0,63}$/.test(value)?value:'unknown';
 module.exports.create=function create(root,info={}){
- const header={app:'ElixirOffice',version:version(info.version),electron:version(info.electron),node:version(info.node),platform:['win32','linux','darwin'].includes(info.platform)?info.platform:'unknown',windowsBuild:info.platform==='win32'?version(info.windowsBuild):'not-windows'};
+ const header={app:'MisaOffice',version:version(info.version),electron:version(info.electron),node:version(info.node),platform:['win32','linux','darwin'].includes(info.platform)?info.platform:'unknown',windowsBuild:info.platform==='win32'?version(info.windowsBuild):'not-windows'};
  const records=[];let pending=Promise.resolve();
  function record(input={}){
   const event={step:steps.has(input.step)?input.step:'save',code:codes.has(input.code)?input.code:'UNKNOWN',retries:Number.isInteger(input.retries)&&input.retries>=0&&input.retries<=1000?input.retries:0,outcome:['failure','deferred','success'].includes(input.outcome)?input.outcome:'failure'};

@@ -80,7 +80,7 @@ PY
   bash tools/desktop/mac.sh > results/mac-package.log 2>&1
   node tools/desktop/check-mac.cjs desktop/dist "$TASK_ROOT/accepted-mac" > results/mac-artifact-audit.log 2>&1
   if [ "$RUN_SMOKE" = no ]; then exit 0; fi
-  export EO_PACKAGE_EXECUTABLE="$TASK_ROOT/accepted-mac/ElixirOffice.app/Contents/MacOS/ElixirOffice"
+  export EO_PACKAGE_EXECUTABLE="$TASK_ROOT/accepted-mac/MisaOffice.app/Contents/MacOS/MisaOffice"
   node tests/desktop/mac-unattended.cjs > results/existing-mac-smoke.log 2>&1
 else
   echo "Linux build architecture: $(uname -m)"
@@ -88,7 +88,7 @@ else
   APPIMAGE=$(python3 -c 'import pathlib;files=list(pathlib.Path(".").glob("*.AppImage"));assert len(files)==1;print(files[0])')
   chmod u+x "$APPIMAGE"
   "./$APPIMAGE" --appimage-extract > results/appimage-extract.log 2>&1
-  export EO_PACKAGE_EXECUTABLE="$TASK_ROOT/squashfs-root/elixiroffice"
+  export EO_PACKAGE_EXECUTABLE="$TASK_ROOT/squashfs-root/misaoffice"
   python3 tests/desktop/verify-resources.py squashfs-root/resources/assets > results/linux-resource-audit.log 2>&1
   python3 tests/desktop/check-samples.py squashfs-root/resources/assets > results/linux-sample-audit.log 2>&1
   export DISPLAY=:0

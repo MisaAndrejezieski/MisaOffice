@@ -27,7 +27,7 @@ app.on('web-contents-created',(_event,wc)=>{
  };
  wc.on('before-input-event',(_event,input)=>{if(input.type==='keyDown')global.shortcutProbe.inputs.push(input);});
 });
-dialog.showMessageBox=async(_win,options)=>{if(options.message==='ElixirOffice'){global.shortcutProbe.about.push(options);return {response:0};}const index=(options.buttons||[]).findIndex(s=>/^(Don't Save|Do not Save)$/.test(s.replaceAll('&','')));if(index<0)throw Error('Unexpected test message box: '+options.message);return {response:index};};
+dialog.showMessageBox=async(_win,options)=>{if(options.message==='MisaOffice'){global.shortcutProbe.about.push(options);return {response:0};}const index=(options.buttons||[]).findIndex(s=>/^(Don't Save|Do not Save)$/.test(s.replaceAll('&','')));if(index<0)throw Error('Unexpected test message box: '+options.message);return {response:index};};
 dialog.showOpenDialog=async()=>{global.shortcutProbe.dialogs.push('open');const file=global.shortcutProbe.nextOpen;global.shortcutProbe.nextOpen=null;return file?{canceled:false,filePaths:[file]}:{canceled:true,filePaths:[]}};
 require(process.env.EO_NATIVE_PRODUCT+'/desktop/main.cjs');
 `;

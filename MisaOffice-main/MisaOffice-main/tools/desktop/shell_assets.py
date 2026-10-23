@@ -135,6 +135,5 @@ def assemble(upstream, product, out):
             if not title:
                 catalog=json.loads((destination/'i18n'/((language if language in supported else 'en')+'.json')).read_text())
                 title=catalog['help']
-            (contents.parent/'index.htm').write_text('<!doctype html><html lang="'+html.escape(language)+'"><meta charset="utf-8"><title>ElixirOffice '+html.escape(title)+'</title><style>body{font:16px/1.6 system-ui;max-width:850px;margin:32px auto;padding:0 24px}a{color:#235f49}</style><h1>ElixirOffice '+html.escape(title)+'</h1><ul>'+''.join(links)+'</ul></html>')
+            (contents.parent/'index.htm').write_text('<!doctype html><html lang="'+html.escape(language)+'"><meta charset="utf-8"><title>MisaOffice '+html.escape(title)+'</title><style>body{font:16px/1.6 system-ui;max-width:850px;margin:32px auto;padding:0 24px}a{color:#235f49}</style><h1>MisaOffice '+html.escape(title)+'</h1><ul>'+''.join(links)+'</ul></html>')
     print('PASS shared home CSS/Fluent assets, four localized templates and',len(supported),'complete desktop locales')
-

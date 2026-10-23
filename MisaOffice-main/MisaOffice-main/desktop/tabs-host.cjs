@@ -42,7 +42,7 @@ function createTabHost({BrowserWindow,WebContentsView,ipcMain,registry,session,r
   const started=performance.now();
   // The system frame is the default and stays available on unqualified systems.
   const placement=geometry.restore?.(registry.windows().length);
-  const window=new BrowserWindow({width:1360,height:960,...placement?.bounds,title:'ElixirOffice',webPreferences:{session,sandbox:true,contextIsolation:true,nodeIntegration:false,webSecurity:true,webviewTag:false,preload:path.join(root,'tabs-preload.cjs')}});
+  const window=new BrowserWindow({width:1360,height:960,...placement?.bounds,title:'MisaOffice',webPreferences:{session,sandbox:true,contextIsolation:true,nodeIntegration:false,webSecurity:true,webviewTag:false,preload:path.join(root,'tabs-preload.cjs')}});
   const owner=registry.registerWindow(window);owner.openInTabs=navigation().openInTabs===true;
   diagnostics({stage:'window-create',durationMs:performance.now()-started,outcome:'ok'});
   window.webContents.setWindowOpenHandler(()=>({action:'deny'}));

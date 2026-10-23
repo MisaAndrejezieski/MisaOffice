@@ -33,7 +33,7 @@ _update_spec.loader.exec_module(appimage_update)
 def appimage_names(version):
     if not re.fullmatch(r"[0-9]+(?:\.[0-9]+){2}(?:-rc\.[1-9][0-9]*)?", version):
         raise ValueError("Invalid package version")
-    name = "ElixirOffice-" + version + "-x86_64.AppImage"
+    name = "MisaOffice-" + version + "-x86_64.AppImage"
     return name, name + ".zsync"
 
 
@@ -61,7 +61,7 @@ def validate_update_packaging(package):
     config = package["build"]
     if config.get("publish", "unset") is not None or any(config.get(key, {}).get("publish") is not None for key in ("linux", "appImage")):
         raise ValueError("AppImage packaging must disable application update feeds explicitly")
-    if config.get("appImage", {}).get("artifactName") != "ElixirOffice-${version}-x86_64.${ext}" or "--publish never" not in package["scripts"]["package"]:
+    if config.get("appImage", {}).get("artifactName") != "MisaOffice-${version}-x86_64.${ext}" or "--publish never" not in package["scripts"]["package"]:
         raise ValueError("AppImage naming/publish policy is not configured")
 
 
@@ -507,21 +507,21 @@ job.mkdir()
             appimage_update.verify_zsync(self.out / appimage, self.out / control)
             self.info["appimage_update"] = json.loads((update_work / "receipt.json").read_text())
             self.info["appimage_tools"] = json.loads((Path(self.args.cache) / "appimage-tools/receipt.json").read_text())
-            shutil.copyfile(self.product / "desktop/dist" / f"ElixirOffice-{version}-linux-amd64.deb", self.out / f"ElixirOffice-{version}-linux-amd64.deb")
+            shutil.copyfile(self.product / "desktop/dist" / f"MisaOffice-{version}-linux-amd64.deb", self.out / f"MisaOffice-{version}-linux-amd64.deb")
             self.save()
-            self.run("deb-extract", ["dpkg-deb", "-x", self.out / f"ElixirOffice-{version}-linux-amd64.deb", self.work / "deb"])
-            deb_version = capture(["dpkg-deb", "-f", self.out / f"ElixirOffice-{version}-linux-amd64.deb", "Version"])
+            self.run("deb-extract", ["dpkg-deb", "-x", self.out / f"MisaOffice-{version}-linux-amd64.deb", self.work / "deb"])
+            deb_version = capture(["dpkg-deb", "-f", self.out / f"MisaOffice-{version}-linux-amd64.deb", "Version"])
             if deb_version != self.plan["build_identity"]["deb_version"]:
                 raise ValueError("DEB version differs from selected desktop version")
-            self.run("deb-packaged-version", [self.args.node, self.product / "tools/desktop/check-version.cjs", self.work / "deb/opt/ElixirOffice/resources/app.asar"])
-            self.run("deb-resource-audit", ["python3", self.product / "tests/desktop/verify-resources.py", self.work / "deb/opt/ElixirOffice/resources/assets"])
+            self.run("deb-packaged-version", [self.args.node, self.product / "tools/desktop/check-version.cjs", self.work / "deb/opt/MisaOffice/resources/app.asar"])
+            self.run("deb-resource-audit", ["python3", self.product / "tests/desktop/verify-resources.py", self.work / "deb/opt/MisaOffice/resources/assets"])
         if "windows" in self.args.targets:
             env = {**self.env, "WINDOWS_BUILDER_IMAGE": self.args.windows_image, "WINDOWS_BUILD_CACHE": str(Path(self.args.cache) / self.job / "windows")}
             # windows.sh uses /work/home inside its read/write cache mount.
             shutil.copytree(self.test_upstream, Path(env["WINDOWS_BUILD_CACHE"]) / "home/elixiroffice/DocumentServer")
             self.run("windows-package", ["bash", self.product / "tools/desktop/windows.sh"], env)
             self.run("windows-audit", [self.args.node, self.product / "tools/desktop/check-windows.cjs", self.product / "desktop/dist", self.work / "windows-audit"])
-            shutil.copyfile(self.product / "desktop/dist" / f"ElixirOffice-{version}-win-x64.exe", self.out / f"ElixirOffice-{version}-win-x64.exe")
+            shutil.copyfile(self.product / "desktop/dist" / f"MisaOffice-{version}-win-x64.exe", self.out / f"MisaOffice-{version}-win-x64.exe")
         if "mac" in self.args.targets and self.args.mac_export_only:
             archive = self.archive()
             shutil.copyfile(archive, self.out / "MAC-INPUT.tar")
@@ -535,7 +535,7 @@ job.mkdir()
             archive = self.archive()
             target = self.transport(self.plan["mac"], [archive], "mac")
             self.run("mac-build-and-smoke", self.ssh(self.plan["mac"], ["/bin/bash", "-c", 'cd "$1"; tar -xf mac-input.tar; /bin/bash tools/release/remote-build.sh mac "$1" "$2" "$3"', "release", target, "no" if self.args.build_only else "yes", self.info["test_upstream"]["manifest_sha256"]]))
-            name = f"ElixirOffice-{version}-mac-arm64.dmg"
+            name = f"MisaOffice-{version}-mac-arm64.dmg"
             with (self.out / name).open("xb") as output:
                 result = subprocess.run(self.ssh(self.plan["mac"], ["cat", str(Path(target) / "desktop/dist" / name)]), stdout=output)
             if result.returncode:

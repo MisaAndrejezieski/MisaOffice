@@ -4,17 +4,17 @@
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 APP="$ROOT/desktop/dist/linux-unpacked"
-[ -x "$APP/elixiroffice" ] || { echo "Build the Linux application first" >&2; exit 1; }
+[ -x "$APP/misaoffice" ] || { echo "Build the Linux application first" >&2; exit 1; }
 VERSION="$(node -p "require(process.argv[1]).version" "$ROOT/desktop/package.json")"
 DEB_VERSION="$(node "$ROOT/desktop/build-identity.cjs" deb "$ROOT/desktop")"
 STAGE="$(mktemp -d "$ROOT/desktop/dist/deb-stage.XXXXXX")"
 trap 'rm -rf "$STAGE"' EXIT
-mkdir -p "$STAGE/DEBIAN" "$STAGE/opt/ElixirOffice" "$STAGE/usr/share/applications" "$STAGE/usr/share/icons/hicolor/512x512/apps"
-cp -a "$APP/." "$STAGE/opt/ElixirOffice/"
+mkdir -p "$STAGE/DEBIAN" "$STAGE/opt/MisaOffice" "$STAGE/usr/share/applications" "$STAGE/usr/share/icons/hicolor/512x512/apps"
+cp -a "$APP/." "$STAGE/opt/MisaOffice/"
 # Electron falls back to the SUID sandbox where unprivileged user namespaces are restricted (Ubuntu 24.04+).
-[ ! -f "$STAGE/opt/ElixirOffice/chrome-sandbox" ] || chmod 4755 "$STAGE/opt/ElixirOffice/chrome-sandbox"
+[ ! -f "$STAGE/opt/MisaOffice/chrome-sandbox" ] || chmod 4755 "$STAGE/opt/MisaOffice/chrome-sandbox"
 cp "$ROOT/desktop/icon.png" "$STAGE/usr/share/icons/hicolor/512x512/apps/elixiroffice.png"
-SIZE="$(du -sk "$STAGE/opt/ElixirOffice" | cut -f1)"
+SIZE="$(du -sk "$STAGE/opt/MisaOffice" | cut -f1)"
 cat > "$STAGE/DEBIAN/control" <<EOF
 Package: elixiroffice-desktop
 Version: $DEB_VERSION
@@ -25,14 +25,14 @@ Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi
 Recommends: libappindicator3-1
 Section: editors
 Priority: optional
-Description: Local ElixirOffice desktop editors
+Description: Local MisaOffice desktop editors
  Offline document, spreadsheet and presentation editors.
 EOF
 cat > "$STAGE/usr/share/applications/org.elixiroffice.desktop.desktop" <<'EOF'
 [Desktop Entry]
-Name=ElixirOffice
+Name=MisaOffice
 Comment=Local office editors
-Exec="/opt/ElixirOffice/elixiroffice" %U
+Exec="/opt/MisaOffice/misaoffice" %U
 Terminal=false
 Type=Application
 Icon=elixiroffice
@@ -43,11 +43,11 @@ for SCRIPT in postinst postrm; do
  cat > "$STAGE/DEBIAN/$SCRIPT" <<'EOF'
 #!/bin/sh
 set -e
-if [ -f /opt/ElixirOffice/chrome-sandbox ]; then chown root:root /opt/ElixirOffice/chrome-sandbox || true; chmod 4755 /opt/ElixirOffice/chrome-sandbox || true; fi
+if [ -f /opt/MisaOffice/chrome-sandbox ]; then chown root:root /opt/MisaOffice/chrome-sandbox || true; chmod 4755 /opt/MisaOffice/chrome-sandbox || true; fi
 if command -v update-desktop-database >/dev/null 2>&1; then update-desktop-database -q || true; fi
 if command -v gtk-update-icon-cache >/dev/null 2>&1; then gtk-update-icon-cache -q -t -f /usr/share/icons/hicolor || true; fi
 exit 0
 EOF
  chmod 755 "$STAGE/DEBIAN/$SCRIPT"
 done
-dpkg-deb --root-owner-group -Zgzip --build "$STAGE" "$ROOT/desktop/dist/ElixirOffice-$VERSION-linux-amd64.deb"
+dpkg-deb --root-owner-group -Zgzip --build "$STAGE" "$ROOT/desktop/dist/MisaOffice-$VERSION-linux-amd64.deb"

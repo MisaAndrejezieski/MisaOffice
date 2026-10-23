@@ -26,7 +26,7 @@ function verifyPackage(pkg,identity){
  assert.equal(pkg.build.buildVersion,v.windows_version);assert.equal(pkg.build.mac.bundleShortVersion,v.mac_short_version);assert.equal(pkg.build.mac.bundleVersion,v.mac_bundle_version);
  return v;
 }
-function aboutOptions(identity){return {applicationName:'ElixirOffice',applicationVersion:label(identity),version:String(identity.build_number)}}
+function aboutOptions(identity){return {applicationName:'MisaOffice',applicationVersion:label(identity),version:String(identity.build_number)}}
 if(require.main===module){
  const fs=require('node:fs'),path=require('node:path'),root=path.resolve(process.argv[3]||__dirname);
  const command=process.argv[2];

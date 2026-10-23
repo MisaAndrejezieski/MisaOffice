@@ -9,17 +9,17 @@ const hash=file=>crypto.createHash('sha256').update(fs.readFileSync(file)).diges
  const [directory,output]=process.argv.slice(2);assert(directory&&output);
  const dist=path.resolve(directory),out=path.resolve(output);assert(!fs.existsSync(out),'Choose a new acceptance folder');
  const identity=require(path.join(root,'desktop/build-info.json'));
- const config=require(path.join(root,'desktop/package.json')),dmg=path.join(dist,'ElixirOffice-'+config.version+'-mac-arm64.dmg');
+ const config=require(path.join(root,'desktop/package.json')),dmg=path.join(dist,'MisaOffice-'+config.version+'-mac-arm64.dmg');
  console.log(run('/usr/bin/hdiutil',['verify',dmg]));
  fs.mkdirSync(out,{recursive:true});const mount=path.join(out,'mount');fs.mkdirSync(mount);
  let mounted=false;
  try {
   run('/usr/bin/hdiutil',['attach','-readonly','-nobrowse','-mountpoint',mount,dmg]);mounted=true;
-  const app=path.join(out,'ElixirOffice.app');run('/bin/cp',['-R',path.join(mount,'ElixirOffice.app'),app]);
-  for(const bundle of [path.join(dist,'mac-arm64','ElixirOffice.app'),app]) {
+  const app=path.join(out,'MisaOffice.app');run('/bin/cp',['-R',path.join(mount,'MisaOffice.app'),app]);
+  for(const bundle of [path.join(dist,'mac-arm64','MisaOffice.app'),app]) {
    const contents=path.join(bundle,'Contents');
    const plist=JSON.parse(run('/usr/bin/plutil',['-convert','json','-o','-',path.join(contents,'Info.plist')]));
-   assert.equal(plist.CFBundleIdentifier,config.build.appId);assert.equal(plist.CFBundleShortVersionString,identity.mac_short_version);assert.equal(plist.CFBundleVersion,identity.mac_bundle_version);assert.equal(plist.CFBundleDisplayName,'ElixirOffice');
+   assert.equal(plist.CFBundleIdentifier,config.build.appId);assert.equal(plist.CFBundleShortVersionString,identity.mac_short_version);assert.equal(plist.CFBundleVersion,identity.mac_bundle_version);assert.equal(plist.CFBundleDisplayName,'MisaOffice');
    assert.equal(plist.LSApplicationCategoryType,'public.app-category.productivity');
    const extensions=plist.CFBundleDocumentTypes.flatMap(type=>type.CFBundleTypeExtensions||[]).sort();
    assert.deepEqual(extensions,['doc','docx','odp','ods','odt','ppt','pptx','xls','xlsx','rtf','txt','csv','dotx','docm','xltx','xlsm','potx','ppsx','pdf'].sort());
@@ -64,7 +64,7 @@ const hash=file=>crypto.createHash('sha256').update(fs.readFileSync(file)).diges
    console.log('PASS arm64 plist/nineteen associations/icon/ad-hoc-no-publisher/source/resources',bundle);
   }
   function walk(base,relative=''){return fs.readdirSync(path.join(base,relative),{withFileTypes:true}).flatMap(entry=>{const name=path.join(relative,entry.name);return entry.isDirectory()?walk(base,name):[name]}).sort()}
-  const original=path.join(dist,'mac-arm64','ElixirOffice.app'),copied=path.join(out,'ElixirOffice.app');
+  const original=path.join(dist,'mac-arm64','MisaOffice.app'),copied=path.join(out,'MisaOffice.app');
   const names=walk(original);assert.deepEqual(walk(copied),names);
   for(const name of names){const a=path.join(original,name),b=path.join(copied,name);if(fs.lstatSync(a).isSymbolicLink())assert.equal(fs.readlinkSync(a),fs.readlinkSync(b));else assert.equal(hash(a),hash(b),name)}
   console.log('PASS actual DMG application matches unpacked application',names.length,'entries');

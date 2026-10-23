@@ -7,7 +7,7 @@ const root=path.resolve(__dirname,'../..');
  const dist=path.resolve(directory),out=path.resolve(output);
  assert(!fs.existsSync(out),'Choose a new extraction output directory');
  const config=require(path.join(root,'desktop/package.json'));
- const installer=path.join(dist,'ElixirOffice-'+config.version+'-win-x64.exe');
+ const installer=path.join(dist,'MisaOffice-'+config.version+'-win-x64.exe');
  assert(fs.statSync(installer).isFile());
  const zip=await require(path.join(root,'desktop/node_modules/app-builder-lib/out/toolsets/7zip')).getPath7za();
  fs.mkdirSync(out,{recursive:true});
@@ -21,7 +21,7 @@ const root=path.resolve(__dirname,'../..');
  run(zip,['x',archive,'-o'+path.join(out,'payload')]);
  for(const base of [path.join(dist,'win-unpacked'),path.join(out,'payload')]){
   run(process.execPath,[path.join(root,'tools/desktop/check-version.cjs'),path.join(base,'resources/app.asar')]);
-  run(process.execPath,[path.join(root,'tools/desktop/check-windows-version.cjs'),path.join(base,'ElixirOffice.exe')]);
+  run(process.execPath,[path.join(root,'tools/desktop/check-windows-version.cjs'),path.join(base,'MisaOffice.exe')]);
   run('python3',[path.join(root,'tests/desktop/verify-resources.py'),path.join(base,'resources/assets')]);
  }
  run(process.execPath,[path.join(root,'tests/desktop/windows-package.cjs'),dist,path.join(out,'payload')]);

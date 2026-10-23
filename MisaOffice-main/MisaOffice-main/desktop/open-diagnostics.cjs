@@ -6,7 +6,7 @@ const outcomes=new Set(['ok','failed','skipped']);
 const version=value=>typeof value==='string'&&/^[0-9][0-9a-zA-Z.+-]{0,63}$/.test(value)?value:'unknown';
 const ms=value=>Number.isFinite(value)?Math.round(Math.max(0,Math.min(360000,value))*100)/100:0;
 module.exports.create=function create(root,info={}){
- const header={diagnostic:'open-performance',app:'ElixirOffice',version:version(info.version),electron:version(info.electron),platform:['win32','linux','darwin'].includes(info.platform)?info.platform:'unknown'};
+ const header={diagnostic:'open-performance',app:'MisaOffice',version:version(info.version),electron:version(info.electron),platform:['win32','linux','darwin'].includes(info.platform)?info.platform:'unknown'};
  const records=[];let pending=Promise.resolve();
  function text(){return JSON.stringify(header)+'\n'+records.map(value=>JSON.stringify(value)).join('\n')+(records.length?'\n':'')}
  function record(input={}){
