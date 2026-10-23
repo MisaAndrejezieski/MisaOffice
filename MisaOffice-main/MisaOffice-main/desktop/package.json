@@ -1,7 +1,7 @@
 {
-  "name": "elixiroffice-desktop",
+  "name": "misaoffice-desktop",
   "version": "0.3.1",
-  "description": "Local ElixirOffice desktop editors",
+  "description": "Local MisaOffice desktop editors",
   "main": "main.cjs",
   "license": "AGPL-3.0-only",
   "author": "ElixirOffice contributors",
@@ -19,7 +19,7 @@
   },
   "build": {
     "appId": "org.elixiroffice.desktop",
-    "productName": "ElixirOffice",
+    "productName": "MisaOffice",
     "electronVersion": "44.7.0",
     "asar": true,
     "files": [
@@ -47,7 +47,7 @@
         "AppImage"
       ],
       "category": "Office",
-      "executableName": "elixiroffice",
+      "executableName": "misaoffice",
       "maintainer": "ElixirOffice contributors",
       "desktop": {
         "entry": {
@@ -113,10 +113,10 @@
       "entitlements": "entitlements.mac.plist",
       "entitlementsInherit": "entitlements.mac.plist"
     },
-    "artifactName": "ElixirOffice-${version}-${os}-${arch}.${ext}",
+    "artifactName": "MisaOffice-${version}-${os}-${arch}.${ext}",
     "publish": null,
     "appImage": {
-      "artifactName": "ElixirOffice-${version}-x86_64.${ext}"
+      "artifactName": "MisaOffice-${version}-x86_64.${ext}"
     },
     "beforePack": "./build-identity-before-pack.cjs"
   },
